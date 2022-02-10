@@ -15,7 +15,7 @@ s.homepage         = 'https://github.com/SedraPay/SedraCheck'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 #s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'mob@sedrapay.com' => 'mob@sedrapay.com' }
-s.source           = { :git => 'https://github.com/SedraPay/SedraCheck/blob/main/SedraCheck.xcframework.zip', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/SedraPay/SedraCheck.git', :tag => s.version.to_s }
 #s.source_files  = "SedraCheck", "SedraCheck/**/*.{h,m,swift}"
 s.swift_version      = "5.3"
 s.ios.deployment_target = '11.0'
