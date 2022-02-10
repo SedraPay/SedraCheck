@@ -13,7 +13,7 @@ The new eKYC in simple way.
 
 ## Video
 
-<a href="https://youtu.be/8oehz24fXI4" target="_blank"><img src="https://i.ytimg.com/an_webp/8oehz24fXI4/mqdefault_6s.webp?du=3000&sqp=CI7ZhJAG&rs=AOn4CLDH2JgcEVi7-Q3M5THjAlEzYxVaiw"
+<a href="https://youtu.be/8oehz24fXI4" target="_blank"><img src="https://i.ytimg.com/vi/8oehz24fXI4/maxresdefault.jpg"
 alt="SedraCheck Demo Video" width="480" height="360" border="10" /></a>
 
 
