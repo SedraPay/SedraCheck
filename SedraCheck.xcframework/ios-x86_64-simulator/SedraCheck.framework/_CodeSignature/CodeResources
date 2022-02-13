@@ -106,7 +106,7 @@
 		</data>
 		<key>Headers/SedraCheck.h</key>
 		<data>
-		nXFuFhcJy3rDk2UFX4/Otxy0ki4=
+		0756bH26AsZNQsMFCNMe0df9JQI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GS/yWK7AsshlN481jLwKIQG9nsA=
+		jhCIE+BFQf2fyp7unXRNulZc8jg=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nqA9phGbtDx1+y91AyEOrTABjSY=
+		DZq3IOgmPp7g4+uQ95mtWdThHrQ=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -130,11 +130,11 @@
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		GS/yWK7AsshlN481jLwKIQG9nsA=
+		jhCIE+BFQf2fyp7unXRNulZc8jg=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		nqA9phGbtDx1+y91AyEOrTABjSY=
+		DZq3IOgmPp7g4+uQ95mtWdThHrQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -326,7 +326,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MlvNtE/1FHKSL3/ocU5PKbhV+tLvt7pZU3YbbhPJWM0=
+			OxvJiM7IGYKvHdKY4XKS7eiVbkY3p/0sRd6wbkNtuQU=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -340,14 +340,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j1ePkFd12ahZFkZWtdI6CqwVvrAr3ybDkdHWK8vGaz0=
+			IZ2FV71r2W9pj0odxXPd9b7aexpcO/GsUll9x2P6k4c=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lqmw3mpO+C78uClRj/itsS9Z70JMlrqvLlkRhkgYGr0=
+			B1iMXbwna4YL9c/SfcOeJVRNSQRsqN0MeHvyv50dpG8=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/x86_64.swiftdoc</key>
@@ -361,14 +361,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j1ePkFd12ahZFkZWtdI6CqwVvrAr3ybDkdHWK8vGaz0=
+			IZ2FV71r2W9pj0odxXPd9b7aexpcO/GsUll9x2P6k4c=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lqmw3mpO+C78uClRj/itsS9Z70JMlrqvLlkRhkgYGr0=
+			B1iMXbwna4YL9c/SfcOeJVRNSQRsqN0MeHvyv50dpG8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char SedraCheckVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <SedraCheck/PublicHeader.h>
 
 #import <SedraCheck/SedraCheck.h>
-
+@import MLKit;

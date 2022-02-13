@@ -7,7 +7,6 @@ import Alamofire
 import CoreVideo
 import Foundation
 import Lottie
-import MLKit
 @_exported import SedraCheck
 import Swift
 import UIKit
