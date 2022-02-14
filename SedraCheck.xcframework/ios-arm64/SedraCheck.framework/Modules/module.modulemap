@@ -1,0 +1,11 @@
+framework module SedraCheck {
+  umbrella header "SedraCheck.h"
+
+  export *
+  module * { export * }
+}
+
+module SedraCheck.Swift {
+    header "SedraCheck-Swift.h"
+    requires objc
+}
