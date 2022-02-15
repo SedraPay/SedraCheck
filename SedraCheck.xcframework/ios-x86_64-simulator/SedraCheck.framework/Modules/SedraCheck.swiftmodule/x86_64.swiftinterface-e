@@ -13,10 +13,14 @@ import UIKit
 import VideoToolbox
 import _Concurrency
 public struct ImageMatchingResponse : Swift.Codable {
+  public var isIdentical: Swift.Bool?
+  public var confidence: Swift.Float?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
 public struct SedraCheckDocument {
+  public var image: UIKit.UIImage?
+  public var documentSide: SedraCheck.DocumentSideEnum?
 }
 public var hasSafeArea: Swift.Bool {
   get
@@ -68,6 +72,7 @@ public protocol SedraCheckJourneyDelegate : ObjectiveC.NSObjectProtocol {
   @objc deinit
 }
 public struct SedraCheckScreeningResponse : Swift.Codable {
+  public let requestID: Swift.String?, requestStatus: Swift.String?, requestStatusDescription: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -84,6 +89,8 @@ public protocol SedraCheckLivenessCheckDelegate {
   @objc deinit
 }
 public struct ServerImageDocument {
+  public var imageID: Swift.String?
+  public var documentSide: SedraCheck.DocumentSideEnum?
 }
 extension UIKit.UIImage {
   convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer)
@@ -94,27 +101,27 @@ extension UIKit.UIImage {
   @_Concurrency.MainActor(unsafe) public func maskToRoi(roi: UIKit.UIView)
   @objc deinit
 }
-public struct IdDocumentVerificationResponse : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
-}
-public struct SedraCheckAPIError : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
-}
 public struct SedraCheckDocumentVerificationResponse : Swift.Codable {
+  public let extractedFields: [SedraCheck.ExtractedField]?
+  public let validationResult: SedraCheck.ValidationResult?
+  public let frontImageID: Swift.String?, backImageID: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
 public struct ExtractedField : Swift.Codable {
+  public let name: Swift.String?
+  public let value: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
 public struct ValidationResult : Swift.Codable {
+  public let result: Swift.String?
+  public let validationChecks: [SedraCheck.ValidationCheck]?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
 public struct ValidationCheck : Swift.Codable {
+  public let name: Swift.String?, value: Swift.String?, result: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
