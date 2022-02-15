@@ -24,10 +24,11 @@ s.ios.deployment_target = '11.0'
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #s.source = { :http => 'SedraCheck.xcframework' }
   #s.vendored_frameworks = 'SedraCheck.xcframework'
-s.vendored_frameworks = 'https://github.com/SedraPay/SedraCheck/blob/main/SedraCheck.xcframework.zip/SedraCheck.xcframework'
+s.vendored_frameworks = 'https://github.com/SedraPay/SedraCheck/blob/main/SedraCheck.xcframework.zip'
+#/SedraCheck.xcframework
 s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-#s.ios.vendored_frameworks = 'SedraCheck.xcframework'
+s.ios.vendored_frameworks = 'SedraCheck.xcframework'
 s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'AVKit'
 s.dependency 'Alamofire'
 s.dependency 'GoogleMLKit/FaceDetection'
