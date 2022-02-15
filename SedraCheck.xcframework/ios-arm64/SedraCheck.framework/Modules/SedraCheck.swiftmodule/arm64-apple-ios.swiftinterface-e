@@ -60,6 +60,10 @@ public protocol SedraCheckJourneyDelegate : ObjectiveC.NSObjectProtocol {
   public static let shared: SedraCheck.SedraCheck
   public static let comply: SedraCheck.SedraComply
   final public var delegate: SedraCheck.SedraCheckJourneyDelegate?
+  final public var scannedDocuments: [SedraCheck.SedraCheckDocument]?
+  final public var livenessImage: UIKit.UIImage?
+  final public var livenessImageId: Swift.String?
+  final public var imagesIds: [SedraCheck.ServerImageDocument]?
   final public func setSettings(serverKey: Swift.String, serverURLString: Swift.String?, _ needsLogging: Swift.Bool = false, _ journeyType: SedraCheck.SedraCheckJourneyType = .unknown)
   @objc deinit
 }
@@ -79,6 +83,8 @@ public protocol SedraCheckLivenessCheckDelegate {
   final public func uploadLivenessCheckImage()
   @objc deinit
 }
+public struct ServerImageDocument {
+}
 extension UIKit.UIImage {
   convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer)
 }
@@ -87,6 +93,14 @@ extension UIKit.UIImage {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
   @_Concurrency.MainActor(unsafe) public func maskToRoi(roi: UIKit.UIView)
   @objc deinit
+}
+public struct IdDocumentVerificationResponse : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct SedraCheckAPIError : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public struct SedraCheckDocumentVerificationResponse : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
