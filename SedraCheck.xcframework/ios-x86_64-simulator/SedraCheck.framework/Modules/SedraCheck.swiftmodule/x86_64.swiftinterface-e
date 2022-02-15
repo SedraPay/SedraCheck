@@ -55,12 +55,12 @@ public protocol SedraCheckJourneyDelegate : ObjectiveC.NSObjectProtocol {
   func didFinishCreatingJourneyWithSuccess(journeyId: Swift.String)
 }
 @_hasMissingDesignatedInitializers final public class SedraCheck {
-  public static let livenessCheck: SedraCheckLivenessCheck
-  public static let documentsCheck: SedraCheckDocuments
-  public static let shared: SedraCheck
-  public static let comply: SedraComply
-  final public var delegate: SedraCheckJourneyDelegate?
-  final public func setSettings(serverKey: Swift.String, serverURLString: Swift.String?, _ needsLogging: Swift.Bool = false, _ journeyType: SedraCheckJourneyType = .unknown)
+  public static let livenessCheck: SedraCheck.SedraCheckLivenessCheck
+  public static let documentsCheck: SedraCheck.SedraCheckDocuments
+  public static let shared: SedraCheck.SedraCheck
+  public static let comply: SedraCheck.SedraComply
+  final public var delegate: SedraCheck.SedraCheckJourneyDelegate?
+  final public func setSettings(serverKey: Swift.String, serverURLString: Swift.String?, _ needsLogging: Swift.Bool = false, _ journeyType: SedraCheck.SedraCheckJourneyType = .unknown)
   @objc deinit
 }
 public struct SedraCheckScreeningResponse : Swift.Codable {
@@ -70,12 +70,12 @@ public struct SedraCheckScreeningResponse : Swift.Codable {
 public protocol SedraCheckLivenessCheckDelegate {
   func didPressCancel()
   func didGetImageSuccessfully(data: UIKit.UIImage)
-  func didGetImageMatchingResponseSuccessfully(response: ImageMatchingResponse)
+  func didGetImageMatchingResponseSuccessfully(response: SedraCheck.ImageMatchingResponse)
   func didGetError(errorMessage: Swift.String)
 }
 @_hasMissingDesignatedInitializers final public class SedraCheckLivenessCheck {
-  final public var delegate: SedraCheckLivenessCheckDelegate?
-  final public func checkLiveness(viewController: SedraCheckLivenessCheckDelegate)
+  final public var delegate: SedraCheck.SedraCheckLivenessCheckDelegate?
+  final public func checkLiveness(viewController: SedraCheck.SedraCheckLivenessCheckDelegate)
   final public func uploadLivenessCheckImage()
   @objc deinit
 }
@@ -105,32 +105,32 @@ public struct ValidationCheck : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
 }
 public protocol SedraComplyDelegate {
-  func screeningFinishedWithSuccess(response: SedraCheckScreeningResponse)
+  func screeningFinishedWithSuccess(response: SedraCheck.SedraCheckScreeningResponse)
   func screeningFinishedWithError(message: Swift.String)
 }
 @_hasMissingDesignatedInitializers final public class SedraComply {
-  final public var delegate: SedraComplyDelegate?
+  final public var delegate: SedraCheck.SedraComplyDelegate?
   final public func screenCustomer(firstName: Swift.String, secondName: Swift.String?, thirdName: Swift.String?, lastName: Swift.String)
   @objc deinit
 }
 public protocol SedraCheckDocumentsDelegate {
   func userDidCloseCamera()
-  func userFinishCapturingDocument(documents: [SedraCheckDocument])
-  func userFinishCapturingDocumentsWithResponse(documents: [SedraCheckDocument], response: SedraCheckDocumentVerificationResponse)
-  func userFinishCapturingDocumentsWithError(documents: [SedraCheckDocument])
+  func userFinishCapturingDocument(documents: [SedraCheck.SedraCheckDocument])
+  func userFinishCapturingDocumentsWithResponse(documents: [SedraCheck.SedraCheckDocument], response: SedraCheck.SedraCheckDocumentVerificationResponse)
+  func userFinishCapturingDocumentsWithError(documents: [SedraCheck.SedraCheckDocument])
 }
 @_hasMissingDesignatedInitializers final public class SedraCheckDocuments {
-  final public var delegate: SedraCheckDocumentsDelegate?
-  final public func captureDocuments(documentType: DocumentTypeEnum)
+  final public var delegate: SedraCheck.SedraCheckDocumentsDelegate?
+  final public func captureDocuments(documentType: SedraCheck.DocumentTypeEnum)
   final public func uploadDocuments()
   @objc deinit
 }
-extension DocumentTypeEnum : Swift.Equatable {}
-extension DocumentTypeEnum : Swift.Hashable {}
-extension DocumentTypeEnum : Swift.RawRepresentable {}
-extension DocumentSideEnum : Swift.Equatable {}
-extension DocumentSideEnum : Swift.Hashable {}
-extension DocumentSideEnum : Swift.RawRepresentable {}
-extension SedraCheckJourneyType : Swift.Equatable {}
-extension SedraCheckJourneyType : Swift.Hashable {}
-extension SedraCheckJourneyType : Swift.RawRepresentable {}
+extension SedraCheck.DocumentTypeEnum : Swift.Equatable {}
+extension SedraCheck.DocumentTypeEnum : Swift.Hashable {}
+extension SedraCheck.DocumentTypeEnum : Swift.RawRepresentable {}
+extension SedraCheck.DocumentSideEnum : Swift.Equatable {}
+extension SedraCheck.DocumentSideEnum : Swift.Hashable {}
+extension SedraCheck.DocumentSideEnum : Swift.RawRepresentable {}
+extension SedraCheck.SedraCheckJourneyType : Swift.Equatable {}
+extension SedraCheck.SedraCheckJourneyType : Swift.Hashable {}
+extension SedraCheck.SedraCheckJourneyType : Swift.RawRepresentable {}
