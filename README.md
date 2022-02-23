@@ -32,7 +32,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SedraCheck'
 
-//also add this
+#also add this
 post_install do |installer_representation|
     installer_representation.pods_project.targets.each do |target|
         target.build_configurations.each do |config|
@@ -44,8 +44,11 @@ end
 ```
 
 Then install it in terminal using below lines:
+
 pod install
+
 -- OR --
+
 pod install --repo-update
 
 
