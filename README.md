@@ -31,7 +31,57 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'SedraCheck'
+
+//also add this
+post_install do |installer_representation|
+    installer_representation.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+            config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+        end
+    end
+end
 ```
+
+Then install it in terminal using below lines:
+pod install
+-- OR --
+pod install --repo-update
+
+
+## Add below line into your AppDelegate.swift
+
+
+```swift
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        guard let rootViewController = self.topViewControllerWithRootViewController(rootViewController: window?.rootViewController),
+         (rootViewController.responds(to: Selector(("canRotate")))) else{
+            // Only allow portrait (standard behaviour)
+            return .portrait;
+        }
+        // Unlock landscape view orientations for this view controller
+        return .landscapeRight;
+    }
+
+    private func topViewControllerWithRootViewController(rootViewController: UIViewController!) -> UIViewController? {
+        guard rootViewController != nil else { return nil }
+
+        guard !(rootViewController.isKind(of: (UITabBarController).self)) else{
+            return topViewControllerWithRootViewController(rootViewController: (rootViewController as! UITabBarController).selectedViewController)
+        }
+        guard !(rootViewController.isKind(of:(UINavigationController).self)) else{
+            return topViewControllerWithRootViewController(rootViewController: (rootViewController as! UINavigationController).visibleViewController)
+        }
+        guard !(rootViewController.presentedViewController != nil) else{
+            return topViewControllerWithRootViewController(rootViewController: rootViewController.presentedViewController)
+        }
+        return rootViewController
+    }
+```
+
+### Lets Start coding
+
+## First step is required to have so you will create session and can use below steps
 
 ###### Create Journey ######
 
