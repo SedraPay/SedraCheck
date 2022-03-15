@@ -189,6 +189,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreGraphics;
+@import Foundation;
 @import UIKit;
 #endif
 
@@ -207,6 +208,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+
 @class NSCoder;
 
 SWIFT_CLASS("_TtC10SedraCheck8BlurView")
@@ -214,6 +216,79 @@ SWIFT_CLASS("_TtC10SedraCheck8BlurView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+
+@class NSNumber;
+@class UITouch;
+@class UIEvent;
+@class NSString;
+@class NSBundle;
+
+/// A view controller that manages the camera module and auto capture of rectangle shape of document
+/// The <code>CameraScannerViewController</code> class is individual camera view include touch for focus, flash control, capture control and auto detect rectangle shape of object.
+SWIFT_CLASS("_TtC10SedraCheck27CameraScannerViewController")
+@interface CameraScannerViewController : UIViewController
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidLayoutSubviews;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+/// A view controller that manages edit image for scanning documents or pick image from photo library
+/// The <code>EditImageViewController</code> class is individual for rotate, crop image
+SWIFT_CLASS("_TtC10SedraCheck23EditImageViewController")
+@interface EditImageViewController : UIViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (void)viewDidLayoutSubviews;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+/// A view controller that manages the full flow for scanning documents.
+/// The <code>ImageScannerController</code> class is meant to be presented. It consists of a series of 3 different screens which guide the user:
+/// <ol>
+///   <li>
+///     Uses the camera to capture an image with a rectangle that has been detected.
+///   </li>
+///   <li>
+///     Edit the detected rectangle.
+///   </li>
+///   <li>
+///     Review the cropped down version of the rectangle.
+///   </li>
+/// </ol>
+SWIFT_CLASS("_TtC10SedraCheck22ImageScannerController")
+@interface ImageScannerController : UINavigationController
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController SWIFT_UNAVAILABLE;
+@end
+
+
+/// The <code>ScannerViewController</code> offers an interface to give feedback to the user regarding quadrilaterals that are detected. It also gives the user the opportunity to capture an image with a detected rectangle.
+SWIFT_CLASS("_TtC10SedraCheck21ScannerViewController")
+@interface ScannerViewController : UIViewController
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidLayoutSubviews;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
 
 
 

@@ -4,13 +4,17 @@
 import AVFoundation
 import AVKit
 import Alamofire
+import CoreImage
+import CoreMotion
 import CoreVideo
 import Foundation
-import Lottie
+import Network
 @_exported import SedraCheck
 import Swift
+import SystemConfiguration
 import UIKit
 import VideoToolbox
+import Vision
 import _Concurrency
 public struct ImageMatchingResponse : Swift.Codable {
   public var isIdentical: Swift.Bool?
@@ -20,7 +24,73 @@ public struct ImageMatchingResponse : Swift.Codable {
 }
 public struct SedraCheckDocument {
   public var image: UIKit.UIImage?
-  public var documentSide: SedraCheck.DocumentSideEnum?
+  public var documentSide: DocumentSideEnum?
+}
+public struct HTTPMethod : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable {
+  public static let connect: HTTPMethod
+  public static let delete: HTTPMethod
+  public static let get: HTTPMethod
+  public static let head: HTTPMethod
+  public static let options: HTTPMethod
+  public static let patch: HTTPMethod
+  public static let post: HTTPMethod
+  public static let put: HTTPMethod
+  public static let trace: HTTPMethod
+  public let rawValue: Swift.String
+  public init(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+}
+public enum ReachabilityError : Swift.Error {
+  case failedToCreateWithAddress(Darwin.sockaddr_in)
+  case failedToCreateWithHostname(Swift.String)
+  case unableToSetCallback
+  case unableToSetDispatchQueue
+}
+public let ReachabilityChangedNotification: Foundation.Notification.Name
+open class Reachability {
+  public typealias NetworkReachable = (Reachability) -> ()
+  public typealias NetworkUnreachable = (Reachability) -> ()
+  public enum NetworkStatus : Swift.CustomStringConvertible {
+    case notReachable, reachableViaWiFi, reachableViaWWAN
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: Reachability.NetworkStatus, b: Reachability.NetworkStatus) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  open var whenReachable: Reachability.NetworkReachable?
+  open var whenUnreachable: Reachability.NetworkUnreachable?
+  open var reachableOnWWAN: Swift.Bool
+  open var notificationCenter: Foundation.NotificationCenter
+  open var currentReachabilityString: Swift.String {
+    get
+  }
+  open var currentReachabilityStatus: Reachability.NetworkStatus {
+    get
+  }
+  required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability)
+  convenience public init?(hostname: Swift.String)
+  convenience public init?()
+  @objc deinit
+}
+extension Reachability {
+  public func startNotifier() throws
+  public func stopNotifier()
+  public var isReachable: Swift.Bool {
+    get
+  }
+  public var isReachableViaWWAN: Swift.Bool {
+    get
+  }
+  public var isReachableViaWiFi: Swift.Bool {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
 }
 public var hasSafeArea: Swift.Bool {
   get
@@ -44,6 +114,23 @@ public enum DocumentSideEnum : Swift.Int {
     get
   }
 }
+public struct DataResponse<Success, Failure> where Failure : Swift.Error {
+  public let request: Foundation.URLRequest?
+  public let response: Foundation.HTTPURLResponse?
+  public let data: Foundation.Data?
+  public let metrics: Foundation.URLSessionTaskMetrics?
+  public let serializationDuration: Foundation.TimeInterval
+  public let result: Swift.Result<Success, Failure>
+  public var value: Success? {
+    get
+  }
+  public var error: Failure? {
+    get
+  }
+  public init(request: Foundation.URLRequest?, response: Foundation.HTTPURLResponse?, data: Foundation.Data?, metrics: Foundation.URLSessionTaskMetrics?, serializationDuration: Foundation.TimeInterval, result: Swift.Result<Success, Failure>)
+}
+public enum AFError : Swift.Error {
+}
 public enum SedraCheckJourneyType : Swift.Int {
   case unknown
   case new
@@ -59,38 +146,68 @@ public protocol SedraCheckJourneyDelegate : ObjectiveC.NSObjectProtocol {
   func didFinishCreatingJourneyWithSuccess(journeyId: Swift.String)
 }
 @_hasMissingDesignatedInitializers final public class SedraCheck {
-  public static let livenessCheck: SedraCheck.SedraCheckLivenessCheck
-  public static let documentsCheck: SedraCheck.SedraCheckDocuments
-  public static let shared: SedraCheck.SedraCheck
-  public static let comply: SedraCheck.SedraComply
-  final public var delegate: SedraCheck.SedraCheckJourneyDelegate?
-  final public var scannedDocuments: [SedraCheck.SedraCheckDocument]?
+  public static let livenessCheck: SedraCheckLivenessCheck
+  public static let documentsCheck: SedraCheckDocuments
+  public static let shared: SedraCheck
+  public static let comply: SedraComply
+  final public var delegate: SedraCheckJourneyDelegate?
+  final public var scannedDocuments: [SedraCheckDocument]?
   final public var livenessImage: UIKit.UIImage?
   final public var livenessImageId: Swift.String?
-  final public var imagesIds: [SedraCheck.ServerImageDocument]?
-  final public func setSettings(serverKey: Swift.String, serverURLString: Swift.String?, _ needsLogging: Swift.Bool = false, _ journeyType: SedraCheck.SedraCheckJourneyType = .unknown)
+  final public var imagesIds: [ServerImageDocument]?
+  final public func setSettings(serverKey: Swift.String, serverURLString: Swift.String?, _ needsLogging: Swift.Bool = false, _ journeyType: SedraCheckJourneyType = .unknown)
+  @objc deinit
+}
+public protocol EditImageViewDelegate : AnyObject {
+  func cropped(image: UIKit.UIImage)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class EditImageViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) weak final public var delegate: EditImageViewDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) final public func cropImage()
+  @_Concurrency.MainActor(unsafe) final public func rotateImage()
   @objc deinit
 }
 public struct SedraCheckScreeningResponse : Swift.Codable {
-  public let requestID: Swift.String?, requestStatus: Swift.String?, requestStatusDescription: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
 public protocol SedraCheckLivenessCheckDelegate {
   func didPressCancel()
   func didGetImageSuccessfully(data: UIKit.UIImage)
-  func didGetImageMatchingResponseSuccessfully(response: SedraCheck.ImageMatchingResponse)
+  func didGetImageMatchingResponseSuccessfully(response: ImageMatchingResponse)
   func didGetError(errorMessage: Swift.String)
 }
 @_hasMissingDesignatedInitializers final public class SedraCheckLivenessCheck {
-  final public var delegate: SedraCheck.SedraCheckLivenessCheckDelegate?
-  final public func checkLiveness(viewController: SedraCheck.SedraCheckLivenessCheckDelegate)
+  final public var delegate: SedraCheckLivenessCheckDelegate?
+  final public func checkLiveness(viewController: SedraCheckLivenessCheckDelegate)
   final public func uploadLivenessCheckImage()
   @objc deinit
 }
 public struct ServerImageDocument {
-  public var imageID: Swift.String?
-  public var documentSide: SedraCheck.DocumentSideEnum?
+}
+public protocol CameraScannerViewOutputDelegate : AnyObject {
+  func captureImageFailWithError(error: Swift.Error)
+  func captureImageSuccess(image: UIKit.UIImage, withQuad quad: Quadrilateral?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class CameraScannerViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) final public var isAutoScanEnabled: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) weak final public var delegate: CameraScannerViewOutputDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) final public func capture()
+  @_Concurrency.MainActor(unsafe) final public func toggleFlash()
+  @_Concurrency.MainActor(unsafe) final public func toggleAutoScan()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
 }
 extension UIKit.UIImage {
   convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer)
@@ -101,9 +218,19 @@ extension UIKit.UIImage {
   @_Concurrency.MainActor(unsafe) public func maskToRoi(roi: UIKit.UIView)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class ScannerViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 public struct SedraCheckDocumentVerificationResponse : Swift.Codable {
-  public let extractedFields: [SedraCheck.ExtractedField]?
-  public let validationResult: SedraCheck.ValidationResult?
+  public let extractedFields: [ExtractedField]?
+  public let validationResult: ValidationResult?
   public let frontImageID: Swift.String?, backImageID: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
@@ -116,7 +243,7 @@ public struct ExtractedField : Swift.Codable {
 }
 public struct ValidationResult : Swift.Codable {
   public let result: Swift.String?
-  public let validationChecks: [SedraCheck.ValidationCheck]?
+  public let validationChecks: [ValidationCheck]?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -125,33 +252,111 @@ public struct ValidationCheck : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+public struct Quadrilateral {
+  public var topLeft: CoreGraphics.CGPoint
+  public var topRight: CoreGraphics.CGPoint
+  public var bottomRight: CoreGraphics.CGPoint
+  public var bottomLeft: CoreGraphics.CGPoint
+  public var description: Swift.String {
+    get
+  }
+}
+extension Quadrilateral : Swift.Equatable {
+  public static func == (lhs: Quadrilateral, rhs: Quadrilateral) -> Swift.Bool
+}
 public protocol SedraComplyDelegate {
-  func screeningFinishedWithSuccess(response: SedraCheck.SedraCheckScreeningResponse)
+  func screeningFinishedWithSuccess(response: SedraCheckScreeningResponse)
   func screeningFinishedWithError(message: Swift.String)
 }
 @_hasMissingDesignatedInitializers final public class SedraComply {
-  final public var delegate: SedraCheck.SedraComplyDelegate?
+  final public var delegate: SedraComplyDelegate?
   final public func screenCustomer(firstName: Swift.String, secondName: Swift.String?, thirdName: Swift.String?, lastName: Swift.String)
   @objc deinit
 }
+public protocol ImageScannerControllerDelegate : ObjectiveC.NSObjectProtocol {
+  func imageScannerController(_ scanner: ImageScannerController, didFinishScanningWithResults results: ImageScannerResults)
+  func imageScannerControllerDidCancel(_ scanner: ImageScannerController)
+  func imageScannerController(_ scanner: ImageScannerController, didFailWithError error: Swift.Error)
+}
+@objc @_Concurrency.MainActor(unsafe) final public class ImageScannerController : UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) weak final public var imageScannerDelegate: ImageScannerControllerDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @_Concurrency.MainActor(unsafe) required public init(image: UIKit.UIImage? = nil, delegate: ImageScannerControllerDelegate? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) final public func useImage(image: UIKit.UIImage)
+  @_Concurrency.MainActor(unsafe) final public func resetScanner()
+  @objc deinit
+}
+public struct ImageScannerScan {
+  public enum ImageScannerError : Swift.Error {
+    case failedToGeneratePDF
+    public static func == (a: ImageScannerScan.ImageScannerError, b: ImageScannerScan.ImageScannerError) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var image: UIKit.UIImage
+  public func generatePDFData(completion: @escaping (Swift.Result<Foundation.Data, ImageScannerScan.ImageScannerError>) -> Swift.Void)
+}
+public struct ImageScannerResults {
+  public var originalScan: ImageScannerScan
+  public var croppedScan: ImageScannerScan
+  public var enhancedScan: ImageScannerScan?
+  public var doesUserPreferEnhancedScan: Swift.Bool
+  public var detectedRectangle: Quadrilateral
+  @available(*, unavailable, renamed: "originalScan")
+  public var originalImage: UIKit.UIImage?
+  @available(*, unavailable, renamed: "croppedScan")
+  public var scannedImage: UIKit.UIImage?
+  @available(*, unavailable, renamed: "enhancedScan")
+  public var enhancedImage: UIKit.UIImage?
+  @available(*, unavailable, renamed: "doesUserPreferEnhancedScan")
+  public var doesUserPreferEnhancedImage: Swift.Bool
+}
+public enum ImageScannerControllerError : Swift.Error {
+  case authorization
+  case inputDevice
+  case capture
+  case ciImageCreation
+  public static func == (a: ImageScannerControllerError, b: ImageScannerControllerError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension ImageScannerControllerError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
 public protocol SedraCheckDocumentsDelegate {
   func userDidCloseCamera()
-  func userFinishCapturingDocument(documents: [SedraCheck.SedraCheckDocument])
-  func userFinishCapturingDocumentsWithResponse(documents: [SedraCheck.SedraCheckDocument], response: SedraCheck.SedraCheckDocumentVerificationResponse)
-  func userFinishCapturingDocumentsWithError(documents: [SedraCheck.SedraCheckDocument])
+  func userFinishCapturingDocument(documents: [SedraCheckDocument])
+  func userFinishCapturingDocumentsWithResponse(documents: [SedraCheckDocument], response: SedraCheckDocumentVerificationResponse)
+  func userFinishCapturingDocumentsWithError(documents: [SedraCheckDocument])
 }
 @_hasMissingDesignatedInitializers final public class SedraCheckDocuments {
-  final public var delegate: SedraCheck.SedraCheckDocumentsDelegate?
-  final public func captureDocuments(documentType: SedraCheck.DocumentTypeEnum)
+  final public var delegate: SedraCheckDocumentsDelegate?
+  final public func captureDocuments(documentType: DocumentTypeEnum)
   final public func uploadDocuments()
   @objc deinit
 }
-extension SedraCheck.DocumentTypeEnum : Swift.Equatable {}
-extension SedraCheck.DocumentTypeEnum : Swift.Hashable {}
-extension SedraCheck.DocumentTypeEnum : Swift.RawRepresentable {}
-extension SedraCheck.DocumentSideEnum : Swift.Equatable {}
-extension SedraCheck.DocumentSideEnum : Swift.Hashable {}
-extension SedraCheck.DocumentSideEnum : Swift.RawRepresentable {}
-extension SedraCheck.SedraCheckJourneyType : Swift.Equatable {}
-extension SedraCheck.SedraCheckJourneyType : Swift.Hashable {}
-extension SedraCheck.SedraCheckJourneyType : Swift.RawRepresentable {}
+extension Reachability.NetworkStatus : Swift.Equatable {}
+extension Reachability.NetworkStatus : Swift.Hashable {}
+extension DocumentTypeEnum : Swift.Equatable {}
+extension DocumentTypeEnum : Swift.Hashable {}
+extension DocumentTypeEnum : Swift.RawRepresentable {}
+extension DocumentSideEnum : Swift.Equatable {}
+extension DocumentSideEnum : Swift.Hashable {}
+extension DocumentSideEnum : Swift.RawRepresentable {}
+extension SedraCheckJourneyType : Swift.Equatable {}
+extension SedraCheckJourneyType : Swift.Hashable {}
+extension SedraCheckJourneyType : Swift.RawRepresentable {}
+extension ImageScannerScan.ImageScannerError : Swift.Equatable {}
+extension ImageScannerScan.ImageScannerError : Swift.Hashable {}
+extension ImageScannerControllerError : Swift.Equatable {}
+extension ImageScannerControllerError : Swift.Hashable {}

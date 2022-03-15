@@ -6,27 +6,55 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		BXjVgv5nvqslsStAi9MDl7LR8G4=
+		+etWmaKbvK0qi6I6Izwv/5p3JwI=
+		</data>
+		<key>Base.lproj/SedraCheck.storyboardc/7Gl-sL-uXu-view-djZ-RV-ICA.nib</key>
+		<data>
+		xID/MWMNfpjFQsddQ3eOBM4CD/k=
+		</data>
+		<key>Base.lproj/SedraCheck.storyboardc/7xK-3w-Ots-view-LFV-8G-12x.nib</key>
+		<data>
+		t/o1JARVi8pbcLs5eHmQHJFYW5k=
 		</data>
 		<key>Base.lproj/SedraCheck.storyboardc/DocumentsCameraViewController.nib</key>
 		<data>
 		JkFknA3IQqnX2zpQC5eidj+HyrQ=
 		</data>
+		<key>Base.lproj/SedraCheck.storyboardc/FAa-Aa-ekK-view-mcf-LS-CpD.nib</key>
+		<data>
+		aj0R3NeEXKeM4mnHphlaZEIaPdA=
+		</data>
 		<key>Base.lproj/SedraCheck.storyboardc/Info.plist</key>
 		<data>
-		sStX7RWZRA3oKWo+/6GDmgtHipQ=
+		fGf7wFE8sfeeE2nhW+PekTreNMc=
 		</data>
 		<key>Base.lproj/SedraCheck.storyboardc/LivenessCheckViewController.nib</key>
 		<data>
 		GpX3QaZ6DrDi4UJLGoX1WC/e1Fw=
 		</data>
+		<key>Base.lproj/SedraCheck.storyboardc/NewCameraViewController.nib</key>
+		<data>
+		twxXVevEJBnRPMRTowyKuiLy89M=
+		</data>
+		<key>Base.lproj/SedraCheck.storyboardc/NewEditImageView.nib</key>
+		<data>
+		zMT3MABP7ar+7MFnfatH4O0Uz6A=
+		</data>
 		<key>Base.lproj/SedraCheck.storyboardc/P5z-qJ-seF-view-5O0-Kn-t6q.nib</key>
 		<data>
-		zkBoMquTe1ficWyUhqP/SNBfXds=
+		zptdQy2Ye+m6ZlpOs+PvwDXbPhc=
+		</data>
+		<key>Base.lproj/SedraCheck.storyboardc/ReviewImageView.nib</key>
+		<data>
+		169hgOWy5NaHKyyw9hu791rHmU4=
+		</data>
+		<key>Base.lproj/SedraCheck.storyboardc/ScanNnavigation.nib</key>
+		<data>
+		5ybWLAYF631XD/zJCKgAuH0Rlaw=
 		</data>
 		<key>Base.lproj/SedraCheck.storyboardc/lIl-BR-EoQ-view-tg6-IR-3vA.nib</key>
 		<data>
-		3pNgczsvA+TDbW6pMow4dLGjo+M=
+		t1jENeXjN6ZYP6kqMIA8DOeXRhA=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -42,7 +70,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		5VsIzvqBmPTdfPyBRcbSDWKqECc=
+		bVn0vWEGQyaU85rCZ86HXycd12E=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -82,39 +110,39 @@
 		</data>
 		<key>Headers/SedraCheck-Swift.h</key>
 		<data>
-		mGCtjbKv8QOWJNHyiOdkOAjri6o=
+		H08WVplMgSn661bxlZFPoaUfhcE=
 		</data>
 		<key>Headers/SedraCheck.h</key>
 		<data>
-		Sltx+14tePTLyo9xKNoVWc2MbsQ=
+		z5dMhqqNwyO5TK+/7xxzF6evZLY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ts0xft+lX3lxg6F/2zcgkT4Gwg0=
+		oj8pkfGCRSOy3RPhbfvdie8vglk=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		OjxhpTavTTlOxnLjT3p4oJ42xF4=
+		9OgmQaifTLq4UK9XTlU8HKPVD4Q=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		WBsbBLfhY1ANbeE2q8tqmobRC3M=
+		n+OZGHNWFdRMwiXJXTz8h2fasOk=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		JaX+Kpyru/N+3iCYEAQjzAONTe4=
+		xkLpHuV5sgEtFbX7F/yiKMSHNps=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		OjxhpTavTTlOxnLjT3p4oJ42xF4=
+		9OgmQaifTLq4UK9XTlU8HKPVD4Q=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		WBsbBLfhY1ANbeE2q8tqmobRC3M=
+		n+OZGHNWFdRMwiXJXTz8h2fasOk=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		JaX+Kpyru/N+3iCYEAQjzAONTe4=
+		xkLpHuV5sgEtFbX7F/yiKMSHNps=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -131,7 +159,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lqFk9d4W3nA41QTsinPKHwx/MCBpw2uOWHKzNshb140=
+			d0ykYW/ynl7mt657Rgp4qUt1jwTAg3xKpxbadjDrnhw=
+			</data>
+		</dict>
+		<key>Base.lproj/SedraCheck.storyboardc/7Gl-sL-uXu-view-djZ-RV-ICA.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bWNdJ1ThKymGlB2obTb/u2SlluUVl2Fwh/MMA4Qhc3w=
+			</data>
+		</dict>
+		<key>Base.lproj/SedraCheck.storyboardc/7xK-3w-Ots-view-LFV-8G-12x.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ibe+/cUal6nm0mozl8nhooQ0NNSyrhh8gWkFulQkCvY=
 			</data>
 		</dict>
 		<key>Base.lproj/SedraCheck.storyboardc/DocumentsCameraViewController.nib</key>
@@ -141,11 +183,18 @@
 			fWHN3izjdEDtxWRVnRV7ljok38/zmIE1zSRMz5EoHOw=
 			</data>
 		</dict>
+		<key>Base.lproj/SedraCheck.storyboardc/FAa-Aa-ekK-view-mcf-LS-CpD.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zRk60W1IC2D3FETV8MNsC0H28A2pR/cuJ3xxstK37Vk=
+			</data>
+		</dict>
 		<key>Base.lproj/SedraCheck.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			doH80UnRdMNbpVZZ/Zd3f3QqesWoV9Pj/Y/b0PeGjhI=
+			KP6p8umQLemfM1BCZsnBEjNmK7hZitcsHN9i6Pwqv7k=
 			</data>
 		</dict>
 		<key>Base.lproj/SedraCheck.storyboardc/LivenessCheckViewController.nib</key>
@@ -155,18 +204,46 @@
 			jx1sI0UP4g1lKNQLpEmRJ1s/8Rk6x6joqDZ7yMt99IA=
 			</data>
 		</dict>
+		<key>Base.lproj/SedraCheck.storyboardc/NewCameraViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BsOkXQPMRO7NWM047I8xztUDtGzh4u0rJlnlHyf45Ao=
+			</data>
+		</dict>
+		<key>Base.lproj/SedraCheck.storyboardc/NewEditImageView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ld2jmOjR6E3B91jrRJjKy/QX6YyyLPiW1W11Hde2veo=
+			</data>
+		</dict>
 		<key>Base.lproj/SedraCheck.storyboardc/P5z-qJ-seF-view-5O0-Kn-t6q.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QtmqlGDu3kjr92WoJUa1xpeCt1Np59lyCosbpXqb5xk=
+			vXYOLu+pK8/C+tWVG/qXNgvUFk49i957Bf2Ae43aA34=
+			</data>
+		</dict>
+		<key>Base.lproj/SedraCheck.storyboardc/ReviewImageView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ePSAxONZYC4xvXoZDvBaQr21yNBgmauYemdg8HcEFlU=
+			</data>
+		</dict>
+		<key>Base.lproj/SedraCheck.storyboardc/ScanNnavigation.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZINWYusb5HAvH7nFwnnufIMoLjtsaQyKtVeai/0oTtk=
 			</data>
 		</dict>
 		<key>Base.lproj/SedraCheck.storyboardc/lIl-BR-EoQ-view-tg6-IR-3vA.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m/vMhpEEHThgcVyYUhriG8LmOCfg2CjvoCH2uWQ6I3Q=
+			sbTauoW4xBzWvs5kOjLqiZcFFVcoTJRIJuUE3kSaUfE=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -194,7 +271,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gxb16XUk8qdoAK9hdESC9wgVab/sbk5pRXmxR6/dqSE=
+			aIzeFoMoJDswtb/fKyhALAxYZ27jG1QllQ9RDSeXnp0=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -264,56 +341,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hjpaeLJWRk9jIwPmvqb3XYWST+8mqm5J1oPc/lrdqJs=
+			1xW3C79O9EwgjtCCRSS9fw0UqWj7LmEYP8HfrExHLV4=
 			</data>
 		</dict>
 		<key>Headers/SedraCheck.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZshUE3ylNKjnxR5Oigr2gzY/PR5LWr5NMG7yMjq5I9w=
+			QmQjtMN95nxT3FISwldNrmBc+bxBYlFtSusaVJX7cPI=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iJUZkmTGBXSKlDvFtYf/9mk9oEAhECyZpGn/oN9EceE=
+			v4YSLdOTqOlrq4aRmfpI/vyr7q9Vkq+jC+iqhG0ibWQ=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H8+ebasOAtb1LJ7lEjZIVw7hxGtJwsJF2utEdS6LZiI=
+			+45K5c9Z7W8H/TGW++vO+yERFOSRgMUvNqaxlfcv6K0=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7v1SFXIDI1UfQq4rmoaL9+YsUl+aMe5MjyMPAO7+tBY=
+			MpcdPvU6AoS/IXhXGPo4uHhkWPGonuuanO01jGuZfNg=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iJUZkmTGBXSKlDvFtYf/9mk9oEAhECyZpGn/oN9EceE=
+			v4YSLdOTqOlrq4aRmfpI/vyr7q9Vkq+jC+iqhG0ibWQ=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H8+ebasOAtb1LJ7lEjZIVw7hxGtJwsJF2utEdS6LZiI=
+			+45K5c9Z7W8H/TGW++vO+yERFOSRgMUvNqaxlfcv6K0=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7v1SFXIDI1UfQq4rmoaL9+YsUl+aMe5MjyMPAO7+tBY=
+			MpcdPvU6AoS/IXhXGPo4uHhkWPGonuuanO01jGuZfNg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

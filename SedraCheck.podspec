@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'SedraCheck'
-s.version          = '0.0.15'
+s.version          = '0.0.16'
 s.summary          = 'Find the liveness of your app user and to check if the ID image is similar to the photo of the user, extract info from ID and passport.'
 
 s.homepage         = 'https://github.com/SedraPay/SedraCheck'
@@ -30,7 +30,7 @@ s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 s.ios.vendored_frameworks = 'SedraCheck.xcframework'
 s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'AVKit'
-s.dependency 'Alamofire'
+#s.dependency 'Alamofire'
 s.dependency 'GoogleMLKit/FaceDetection'
-s.dependency 'lottie-ios'
+#s.dependency 'lottie-ios'
 end
