@@ -1,9 +1,8 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SedraCheck
 import AVFoundation
 import AVKit
-import Alamofire
 import CoreImage
 import CoreMotion
 import CoreVideo
@@ -39,6 +38,116 @@ public struct HTTPMethod : Swift.RawRepresentable, Swift.Equatable, Swift.Hashab
   public let rawValue: Swift.String
   public init(rawValue: Swift.String)
   public typealias RawValue = Swift.String
+}
+public struct ConfigureScanDocumetsViews {
+  public var ConfigureDocumentsCameraPage: ConfigureDocumentsCameraPage?
+  public var ConfigureDocumentsEditPage: ConfigureDocumentsEditPage?
+  public var ConfigureDocumentsPreviewPage: ConfigureDocumentsPreviewPage?
+  public init(ConfigureDocumentsCameraPage: ConfigureDocumentsCameraPage? = nil, ConfigureDocumentsEditPage: ConfigureDocumentsEditPage? = nil, ConfigureDocumentsPreviewPage: ConfigureDocumentsPreviewPage? = nil)
+}
+public struct ConfigureDocumentsCameraPage {
+  public var cameraViewBackgroundColor: UIKit.UIColor?
+  public var topHintCameraLabelColor: UIKit.UIColor?
+  public var topHintCameraLabelTitle: Swift.String?
+  public var topHintCameraIsHidden: Swift.Bool?
+  public var topHintCameraLabelNumberOfLines: Swift.Int?
+  public var frontIDLabelColor: UIKit.UIColor?
+  public var frontIDLabelTitle: Swift.String?
+  public var frontIDIsHidden: Swift.Bool?
+  public var backIDLabelColor: UIKit.UIColor?
+  public var backIDLabelTitle: Swift.String?
+  public var backIDIsHidden: Swift.Bool?
+  public var passportLabelColor: UIKit.UIColor?
+  public var passportLabelTitle: Swift.String?
+  public var passportIsHidden: Swift.Bool?
+  public var frontDrivingLicenseLabelColor: UIKit.UIColor?
+  public var frontDrivingLicenseLabelTitle: Swift.String?
+  public var frontDrivingLicenseIsHidden: Swift.Bool?
+  public var backDrivingLicenseLabelColor: UIKit.UIColor?
+  public var backDrivingLicenseLabelTitle: Swift.String?
+  public var backDrivingLicenseIsHidden: Swift.Bool?
+  public var documentTypeLabelNumberOfLines: Swift.Int?
+  public var fontNameAndSize: UIKit.UIFont?
+  public var captureButtonImage: UIKit.UIImage?
+  public var captureButtonImageURL: Swift.String?
+  public var captureButtonIsHidden: Swift.Bool?
+  public var captureButtonTitle: Swift.String?
+  public var captureButtonColor: UIKit.UIColor?
+  public var captureButtonFontColor: UIKit.UIColor?
+  public var captureButtonFontNameAndSize: UIKit.UIFont?
+  public var captureButtonImageTintColor: UIKit.UIColor?
+  public var closeButtonImageURL: Swift.String?
+  public var closeButtonImage: UIKit.UIImage?
+  public var closeButtonIsHidden: Swift.Bool?
+  public var closeButtonTitle: Swift.String?
+  public var closeButtonColor: UIKit.UIColor?
+  public var closeButtonFontColor: UIKit.UIColor?
+  public var closeButtonFontNameAndSize: UIKit.UIFont?
+  public var closeButtonImageTintColor: UIKit.UIColor?
+  public var flashButtonImageURL: Swift.String?
+  public var flashButtonImage: UIKit.UIImage?
+  public var flashButtonIsHidden: Swift.Bool?
+  public var flashButtonTitle: Swift.String?
+  public var flashButtonColor: UIKit.UIColor?
+  public var flashButtonFontColor: UIKit.UIColor?
+  public var flashButtonFontNameAndSize: UIKit.UIFont?
+  public var flashButtonImageTintColor: UIKit.UIColor?
+  public init(cameraViewBackgroundColor: UIKit.UIColor? = .black, topHintCameraLabelColor: UIKit.UIColor? = .white, topHintCameraLabelTitle: Swift.String? = NSLocalizedString("Please get close to the ID/Passport so it would fill the empty area", comment: ""), topHintCameraIsHidden: Swift.Bool? = false, topHintCameraLabelNumberOfLines: Swift.Int? = 0, frontIDLabelColor: UIKit.UIColor? = .white, frontIDLabelTitle: Swift.String? = NSLocalizedString("Scan your ID front face", comment: ""), frontIDIsHidden: Swift.Bool? = false, backIDLabelColor: UIKit.UIColor? = .white, backIDLabelTitle: Swift.String? = NSLocalizedString("Scan your ID Back face", comment: ""), backIDIsHidden: Swift.Bool? = false, passportLabelColor: UIKit.UIColor? = .white, passportLabelTitle: Swift.String? = NSLocalizedString("Scan your passport", comment: ""), passportIsHidden: Swift.Bool? = false, frontDrivingLicenseLabelColor: UIKit.UIColor? = .white, frontDrivingLicenseLabelTitle: Swift.String? = NSLocalizedString("Scan your Driving front face", comment: ""), frontDrivingLicenseIsHidden: Swift.Bool? = false, backDrivingLicenseLabelColor: UIKit.UIColor? = .white, backDrivingLicenseLabelTitle: Swift.String? = NSLocalizedString("Scan your Driving back face", comment: ""), backDrivingLicenseIsHidden: Swift.Bool? = false, documentTypeLabelNumberOfLines: Swift.Int? = 0, fontNameAndSize: UIKit.UIFont? = .systemFont(ofSize: 13), captureButtonImage: UIKit.UIImage? = nil, captureButtonImageURL: Swift.String? = "", captureButtonIsHidden: Swift.Bool? = false, captureButtonTitle: Swift.String? = "", captureButtonColor: UIKit.UIColor? = .clear, captureButtonFontColor: UIKit.UIColor? = .white, captureButtonFontNameAndSize: UIKit.UIFont? = .systemFont(ofSize: 13), captureButtonImageTintColor: UIKit.UIColor? = .white, closeButtonImageURL: Swift.String? = "", closeButtonImage: UIKit.UIImage? = nil, closeButtonIsHidden: Swift.Bool? = false, closeButtonTitle: Swift.String? = "", closeButtonColor: UIKit.UIColor? = .clear, closeButtonFontColor: UIKit.UIColor? = .white, closeButtonFontNameAndSize: UIKit.UIFont? = .systemFont(ofSize: 13), closeButtonImageTintColor: UIKit.UIColor? = .white, flashButtonImageURL: Swift.String? = "", flashButtonImage: UIKit.UIImage? = nil, flashButtonIsHidden: Swift.Bool? = false, flashButtonTitle: Swift.String? = "", flashButtonColor: UIKit.UIColor? = .clear, flashButtonFontColor: UIKit.UIColor? = .white, flashButtonFontNameAndSize: UIKit.UIFont? = .systemFont(ofSize: 13), flashButtonImageTintColor: UIKit.UIColor? = .white)
+}
+public struct ConfigureDocumentsEditPage {
+  public var editPageBackgroundColor: UIKit.UIColor?
+  public var outlinesCroppingColor: UIKit.UIColor?
+  public var backButtonImage: UIKit.UIImage?
+  public var backButtonImageURL: Swift.String?
+  public var backButtonTitle: Swift.String?
+  public var backButtonIsHidden: Swift.Bool?
+  public var backButtonColor: UIKit.UIColor?
+  public var backButtonFontColor: UIKit.UIColor?
+  public var backButtonFontNameAndSize: UIKit.UIFont?
+  public var backButtonImageTintColor: UIKit.UIColor?
+  public var cropButtonImage: UIKit.UIImage?
+  public var cropButtonImageURL: Swift.String?
+  public var cropButtonTitle: Swift.String?
+  public var cropButtonIsHidden: Swift.Bool?
+  public var cropButtonColor: UIKit.UIColor?
+  public var cropButtonFontColor: UIKit.UIColor?
+  public var cropButtonFontNameAndSize: UIKit.UIFont?
+  public var cropButtonImageTintColor: UIKit.UIColor?
+  public init(editPageBackgroundColor: UIKit.UIColor? = .black, outlinesCroppingColor: UIKit.UIColor? = .red, backButtonImage: UIKit.UIImage? = nil, backButtonImageURL: Swift.String? = "", backButtonTitle: Swift.String? = "", backButtonIsHidden: Swift.Bool? = false, backButtonColor: UIKit.UIColor? = .clear, backButtonFontColor: UIKit.UIColor? = .white, backButtonFontNameAndSize: UIKit.UIFont? = .systemFont(ofSize: 13), backButtonImageTintColor: UIKit.UIColor? = .white, cropButtonImage: UIKit.UIImage? = nil, cropButtonImageURL: Swift.String? = "", cropButtonTitle: Swift.String? = "", cropButtonIsHidden: Swift.Bool? = false, cropButtonColor: UIKit.UIColor? = .clear, cropButtonFontColor: UIKit.UIColor? = .white, cropButtonFontNameAndSize: UIKit.UIFont? = .systemFont(ofSize: 13), cropButtonImageTintColor: UIKit.UIColor? = .white)
+}
+public struct ConfigureDocumentsPreviewPage {
+  public var previewPageBackgroundColor: UIKit.UIColor?
+  public var reviewLabelTitle: Swift.String?
+  public var reviewLabelColor: UIKit.UIColor
+  public var reviewLabelNumberOfLine: Swift.Int?
+  public var reviewLabelIsHidden: Swift.Bool?
+  public var editScanButtonImage: UIKit.UIImage?
+  public var editScanButtonImageURL: Swift.String?
+  public var editScanButtonTitle: Swift.String?
+  public var editScanButtonIsHidden: Swift.Bool?
+  public var editScanButtonColor: UIKit.UIColor?
+  public var editButtonFontColor: UIKit.UIColor?
+  public var editButtonFontNameAndSize: UIKit.UIFont?
+  public var editScanButtonImageTintColor: UIKit.UIColor?
+  public var confirmButtonImage: UIKit.UIImage?
+  public var confirmButtonImageURL: Swift.String?
+  public var confirmButtonTitle: Swift.String?
+  public var confirmButtonIsHidden: Swift.Bool?
+  public var confirmScanButtonColor: UIKit.UIColor?
+  public var confirmButtonFontColor: UIKit.UIColor?
+  public var confirmButtonFontNameAndSize: UIKit.UIFont?
+  public var confirmScanButtonImageTintColor: UIKit.UIColor?
+  public var rotateButtonImage: UIKit.UIImage?
+  public var rotateButtonImageURL: Swift.String?
+  public var rotateButtonTitle: Swift.String?
+  public var rotateButtonIsHidden: Swift.Bool?
+  public var rotateScanButtonColor: UIKit.UIColor?
+  public var rotateButtonFontColor: UIKit.UIColor?
+  public var rotateButtonFontNameAndSize: UIKit.UIFont?
+  public var rotateScanButtonImageTintColor: UIKit.UIColor?
+  public init(previewPageBackgroundColor: UIKit.UIColor? = .black, reviewLabelTitle: Swift.String? = "", reviewLabelColor: UIKit.UIColor = .white, reviewLabelNumberOfLine: Swift.Int? = 0, reviewLabelIsHidden: Swift.Bool? = false, editScanButtonImage: UIKit.UIImage? = nil, editScanButtonImageURL: Swift.String? = "", editScanButtonTitle: Swift.String? = "", editScanButtonIsHidden: Swift.Bool? = false, editScanButtonColor: UIKit.UIColor? = .clear, editButtonFontColor: UIKit.UIColor? = .white, editButtonFontNameAndSize: UIKit.UIFont? = .systemFont(ofSize: 13), editScanButtonImageTintColor: UIKit.UIColor? = .white, confirmButtonImage: UIKit.UIImage? = nil, confirmButtonImageURL: Swift.String? = "", confirmButtonTitle: Swift.String? = "", confirmButtonIsHidden: Swift.Bool? = false, confirmScanButtonColor: UIKit.UIColor? = .clear, confirmButtonFontColor: UIKit.UIColor? = .white, confirmButtonFontNameAndSize: UIKit.UIFont? = .systemFont(ofSize: 13), confirmScanButtonImageTintColor: UIKit.UIColor? = .white, rotateButtonImage: UIKit.UIImage? = nil, rotateButtonImageURL: Swift.String? = "", rotateButtonTitle: Swift.String? = "", rotateButtonIsHidden: Swift.Bool? = false, rotateScanButtonColor: UIKit.UIColor? = .clear, rotateButtonFontColor: UIKit.UIColor? = .white, rotateButtonFontNameAndSize: UIKit.UIFont? = .systemFont(ofSize: 13), rotateScanButtonImageTintColor: UIKit.UIColor? = .white)
+}
+public struct ConfigureLivenessCheckView {
 }
 public enum ReachabilityError : Swift.Error {
   case failedToCreateWithAddress(Darwin.sockaddr_in)
@@ -114,6 +223,25 @@ public enum DocumentSideEnum : Swift.Int {
     get
   }
 }
+public enum SedraCheckError : Swift.Error {
+  case failedToCreateSession
+  case nonValidServerURL
+  case emptyServerURL
+  case severURLIsNil
+  case createJourneyError
+  case journeyIsNotGenerated
+  case complyError
+  case failedToUploadImage
+  case idDocumentVerificationError
+  case cameraAccessDenied
+  case serverError
+  case imageLoadingError
+  public static func == (a: SedraCheckError, b: SedraCheckError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct DataResponse<Success, Failure> where Failure : Swift.Error {
   public let request: Foundation.URLRequest?
   public let response: Foundation.HTTPURLResponse?
@@ -142,8 +270,10 @@ public enum SedraCheckJourneyType : Swift.Int {
   }
 }
 public protocol SedraCheckJourneyDelegate : ObjectiveC.NSObjectProtocol {
-  func didFinishCreatingJourneyWithError(error: Swift.String)
+  func didFinishCreatingJourneyWithError(error: SedraCheckError)
   func didFinishCreatingJourneyWithSuccess(journeyId: Swift.String)
+  func didFinishCloseJourneyWithSuccess()
+  func didFinishCloseJourneyWithError(error: SedraCheckError)
 }
 @_hasMissingDesignatedInitializers final public class SedraCheck {
   public static let livenessCheck: SedraCheckLivenessCheck
@@ -156,6 +286,7 @@ public protocol SedraCheckJourneyDelegate : ObjectiveC.NSObjectProtocol {
   final public var livenessImageId: Swift.String?
   final public var imagesIds: [ServerImageDocument]?
   final public func setSettings(serverKey: Swift.String, serverURLString: Swift.String?, _ needsLogging: Swift.Bool = false, _ journeyType: SedraCheckJourneyType = .unknown)
+  final public func closeJourney(customerId: Swift.String?)
   @objc deinit
 }
 public protocol EditImageViewDelegate : AnyObject {
@@ -178,10 +309,11 @@ public protocol SedraCheckLivenessCheckDelegate {
   func didGetImageSuccessfully(data: UIKit.UIImage)
   func didGetImageMatchingResponseSuccessfully(response: ImageMatchingResponse)
   func didGetError(errorMessage: Swift.String)
+  func LivenessCheckPageError(error: SedraCheckError)
 }
 @_hasMissingDesignatedInitializers final public class SedraCheckLivenessCheck {
   final public var delegate: SedraCheckLivenessCheckDelegate?
-  final public func checkLiveness(viewController: SedraCheckLivenessCheckDelegate)
+  final public func checkLiveness(viewController: SedraCheckLivenessCheckDelegate, detectOptions: [DetectionOptions])
   final public func uploadLivenessCheckImage()
   @objc deinit
 }
@@ -264,9 +396,21 @@ public struct Quadrilateral {
 extension Quadrilateral : Swift.Equatable {
   public static func == (lhs: Quadrilateral, rhs: Quadrilateral) -> Swift.Bool
 }
+public enum DetectionOptions {
+  case blink
+  case lookRight
+  case lookLeft
+  case singleFaceDetect
+  case smile
+  public static func == (a: DetectionOptions, b: DetectionOptions) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public protocol SedraComplyDelegate {
   func screeningFinishedWithSuccess(response: SedraCheckScreeningResponse)
-  func screeningFinishedWithError(message: Swift.String)
+  func screeningFinishedWithError(message: SedraCheckError)
 }
 @_hasMissingDesignatedInitializers final public class SedraComply {
   final public var delegate: SedraComplyDelegate?
@@ -336,13 +480,14 @@ extension ImageScannerControllerError : Foundation.LocalizedError {
 public protocol SedraCheckDocumentsDelegate {
   func userDidCloseCamera()
   func userFinishCapturingDocument(documents: [SedraCheckDocument])
+  func didFinishWithError(error: SedraCheckError)
   func userFinishCapturingDocumentsWithResponse(documents: [SedraCheckDocument], response: SedraCheckDocumentVerificationResponse)
-  func userFinishCapturingDocumentsWithError(documents: [SedraCheckDocument])
+  func userFinishCapturingDocumentsWithError(documents: [SedraCheckDocument], error: SedraCheckError)
 }
 @_hasMissingDesignatedInitializers final public class SedraCheckDocuments {
   final public var delegate: SedraCheckDocumentsDelegate?
-  final public func captureDocuments(documentType: DocumentTypeEnum)
-  final public func uploadDocuments()
+  final public func captureDocuments(documentType: DocumentTypeEnum, configuration: ConfigureScanDocumetsViews?)
+  final public func extractData()
   @objc deinit
 }
 extension Reachability.NetworkStatus : Swift.Equatable {}
@@ -353,9 +498,13 @@ extension DocumentTypeEnum : Swift.RawRepresentable {}
 extension DocumentSideEnum : Swift.Equatable {}
 extension DocumentSideEnum : Swift.Hashable {}
 extension DocumentSideEnum : Swift.RawRepresentable {}
+extension SedraCheckError : Swift.Equatable {}
+extension SedraCheckError : Swift.Hashable {}
 extension SedraCheckJourneyType : Swift.Equatable {}
 extension SedraCheckJourneyType : Swift.Hashable {}
 extension SedraCheckJourneyType : Swift.RawRepresentable {}
+extension DetectionOptions : Swift.Equatable {}
+extension DetectionOptions : Swift.Hashable {}
 extension ImageScannerScan.ImageScannerError : Swift.Equatable {}
 extension ImageScannerScan.ImageScannerError : Swift.Hashable {}
 extension ImageScannerControllerError : Swift.Equatable {}

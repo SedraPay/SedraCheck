@@ -23,7 +23,7 @@ alt="SedraCheck Demo Video" width="480" height="360" border="10" /></a>
 
 
 
-Installation
+## Installation
 ==========================
 
 SedraCheck is available through [CocoaPods](http://cocoapods.org). To install
@@ -56,7 +56,7 @@ pod install --repo-update
 
 ```xml
 <key>NSCameraUsageDescription</key>
-<string>$(PRODUCT_NAME) camera description.</string>
+<string>$(PRODUCT_NAME) {camera usage description and why the app needs to use it}.</string>
 ```
 
 
@@ -88,16 +88,32 @@ override func viewDidLoad(){
     SedraCheck.shared.setSettings(serverKey: "<YOUR_SERVER_KEY>", serverURLString: "<YOUR_GIVEN_SERVER>", true, .update) 
 }
 
+func closeJourny(){
+     //assign the delegate to your viewController
+    SedraCheck.shared.delegate = self
+    /// - Parameters:
+    ///  - customerId: this parameter to know your user id so you can compare it from our portal if needed
+    SedraCheck.shared.closeJourney(customerId: "<YOUR_CORE_SYSTEM_USERID>")
+}
+
 extension <YOUR_VIEW_CONTROLLER>: SedraCheckJourneyDelegate{
-    func didFinishCreatingJourneyWithError(error: String) {
+    func didFinishCreatingJourneyWithError(error: SedraCheckError){
         //do your own code as:
-        //dismiss dialogs
+        //dismiss dialogs, loadings
+        //recall the function
+    }
+    func didFinishCloseJourneyWithSuccess(){
+
+    }
+    func didFinishCloseJourneyWithError(error: SedraCheckError){
+        //do your own code as:
+        //dismiss dialogs, loadings
         //recall the function
     }
     
     func didFinishCreatingJourneyWithSuccess(journeyId: String) {
         //do your own code as:
-        //dismiss dialog 
+        //dismiss dialog, loadings
         //save the journey if needed as a reference to your server to check user from our protal
     }
 }
@@ -132,8 +148,11 @@ extension <YOUR_VIEW_CONTROLLER>: SedraCheckDocumentsDelegate{
     func userFinishCapturingDocumentsWithResponse(documents: [SedraCheckDocument], response: SedraCheckDocumentVerificationResponse){
     
     }
-    func userFinishCapturingDocumentsWithError(documents: [SedraCheckDocument]){
+    func userFinishCapturingDocumentsWithError(documents: [SedraCheckDocument], , error: SedraCheckError){
     
+    }
+    func didFinishWithError(error: SedraCheckError){
+
     }
 }
 ```
@@ -171,13 +190,15 @@ extension <YOUR_VIEW_CONTROLLER>: SedraCheckLivenessCheckDelegate{
     func didGetError(errorMessage: String){
     
     }
+    func LivenessCheckPageError(error: SedraCheckError){
+        
+    }
 }
 ```
 ###### END OF SEDRA LIVENESS CHECK ######
 
 
 ###### Sedra Comply ######
-
 
 
 ```swift
@@ -204,7 +225,7 @@ extension <YOUR_VIEW_CONTROLLER>: SedraComplyDelegate{
         //do your code here
     }
     
-    func screeningFinishedWithError(message: String){
+    func screeningFinishedWithError(message: SedraCheckError){
         //do your code here
     }
 }
@@ -212,12 +233,12 @@ extension <YOUR_VIEW_CONTROLLER>: SedraComplyDelegate{
 ###### END OF SEDRA COMPLY ######
 
 
-Localization
+## Localization
 ==========================
 Check localizable.string file in the project and translate it in the way you love.
 
 
-Contact Us
+## Contact Us & Report a Bug
 ==========================
 
 If you have any questions or you want to contact us, visit our website.
