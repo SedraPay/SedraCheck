@@ -233,12 +233,12 @@ extension <YOUR_VIEW_CONTROLLER>: SedraComplyDelegate{
 ###### END OF SEDRA COMPLY ######
 
 
-## Localization
+Localization
 ==========================
 Check localizable.string file in the project and translate it in the way you love.
 
 
-## Contact Us & Report a Bug
+Contact Us & Report a Bug
 ==========================
 
 If you have any questions or you want to contact us, visit our website.
