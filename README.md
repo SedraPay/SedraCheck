@@ -222,7 +222,10 @@ public struct ConfigureDocumentsCameraPage {
     public var flashButtonFontNameAndSize:UIFont? = .systemFont(ofSize: 13)
     public var flashButtonImageTintColor:UIColor? = .white
     }
-    
+ 
+ ```
+ 
+ ```swift
 /// ConfigureDocumentsEditPage: this is the second object which configure all attributes in the edit Page, use below code with default values:
 
 public struct ConfigureDocumentsEditPage {
@@ -247,7 +250,9 @@ public struct ConfigureDocumentsEditPage {
     public var cropButtonFontNameAndSize:UIFont? = .systemFont(ofSize: 13)
     public var cropButtonImageTintColor:UIColor? = .white
     }
-    
+ ```
+ 
+ ```swift
 /// ConfigureDocumentsPreviewPage: this is the third object which configure all attributes in the preview Page, use below code with default values:
  
  public struct ConfigureDocumentsPreviewPage {
