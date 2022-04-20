@@ -160,6 +160,7 @@ extension <YOUR_VIEW_CONTROLLER>: SedraCheckDocumentsDelegate{
 ###### END OF SEDRA CHECK ######
 
 ###### Sedra Configuration ######
+If you need to configure the Documents Pages, use below code:
 ```swift
 /// ConfigureDocumentsCameraPage: this is the first object which configure all attributes in the Camera Page, use below code with default values:
 
