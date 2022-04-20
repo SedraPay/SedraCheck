@@ -134,8 +134,9 @@ If you need to let the user capture the document (id, passport), use below code:
     /// Below function is for ocr the document and get the information of the user.
     /// - Parameters:
     ///   - documentType: this is an enum (.id, .passport)
+    ///   - configuration: of type ConfigureScanDocumentsViews whitch contains 3 objects type will be declared down 
 
-    SedraCheck.documentsCheck.captureDocuments(documentType: .id)
+    SedraCheck.documentsCheck.captureDocuments(documentType: .id, configuration: configuration)
 }
 
 extension <YOUR_VIEW_CONTROLLER>: SedraCheckDocumentsDelegate{
@@ -158,6 +159,134 @@ extension <YOUR_VIEW_CONTROLLER>: SedraCheckDocumentsDelegate{
 ```
 ###### END OF SEDRA CHECK ######
 
+###### Sedra Configuration ######
+```swift
+/// ConfigureDocumentsCameraPage: this is the first object which configure all attributes in the Camera Page, use below code with default values:
+
+public struct ConfigureDocumentsCameraPage {
+    //Camera Page Attributes
+    public var cameraViewBackgroundColor: UIColor? = .black
+    public var topHintCameraLabelColor:UIColor? = .white
+    public var topHintCameraLabelTitle:String? = NSLocalizedString("Please get close to the ID/Passport so it would fill the empty area", comment: "")
+    public var topHintCameraIsHidden:Bool? = false
+    public var topHintCameraLabelNumberOfLines:Int? = 0
+    
+    public var frontIDLabelColor:UIColor? = .white
+    public var frontIDLabelTitle:String? =  NSLocalizedString("Scan your ID front face", comment: "")
+    public var frontIDIsHidden:Bool? = false
+    
+    public var backIDLabelColor:UIColor? = .white
+    public var backIDLabelTitle:String? =  NSLocalizedString("Scan your ID Back face", comment: "")
+    public var backIDIsHidden:Bool? = false
+    
+    public var passportLabelColor:UIColor? = .white
+    public var passportLabelTitle:String? =  NSLocalizedString("Scan your passport", comment: "")
+    public var passportIsHidden:Bool? = false
+    
+    public var frontDrivingLicenseLabelColor:UIColor? = .white
+    public var frontDrivingLicenseLabelTitle:String? =  NSLocalizedString("Scan your Driving front face", comment: "")
+    public var frontDrivingLicenseIsHidden:Bool? = false
+    
+    public var backDrivingLicenseLabelColor:UIColor? = .white
+    public var backDrivingLicenseLabelTitle:String? =  NSLocalizedString("Scan your Driving back face", comment: "")
+    public var backDrivingLicenseIsHidden:Bool? = false
+    
+    public var documentTypeLabelNumberOfLines:Int? = 0
+    public var fontNameAndSize: UIFont? = .systemFont(ofSize: 13)
+    
+    public var captureButtonImage: UIImage? = nil
+    public var captureButtonImageURL: String? = ""
+    public var captureButtonIsHidden:Bool? = false
+    public var captureButtonTitle:String? = ""
+    public var captureButtonColor:UIColor? = .clear
+    public var captureButtonFontColor:UIColor? = .white
+    public var captureButtonFontNameAndSize:UIFont? = .systemFont(ofSize: 13)
+    public var captureButtonImageTintColor:UIColor? = .white
+    
+    public var closeButtonImageURL:String? = ""
+    public var closeButtonImage:UIImage? = nil
+    public var closeButtonIsHidden:Bool? = false
+    public var closeButtonTitle:String? = ""
+    public var closeButtonColor:UIColor? = .clear
+    public var closeButtonFontColor:UIColor? = .white
+    public var closeButtonFontNameAndSize:UIFont? = .systemFont(ofSize: 13)
+    public var closeButtonImageTintColor:UIColor? = .white
+    
+    public var flashButtonImageURL:String? = ""
+    public var flashButtonImage:UIImage? = nil
+    public var flashButtonIsHidden:Bool? = false
+    public var flashButtonTitle:String? = ""
+    public var flashButtonColor:UIColor? = .clear
+    public var flashButtonFontColor:UIColor? = .white
+    public var flashButtonFontNameAndSize:UIFont? = .systemFont(ofSize: 13)
+    public var flashButtonImageTintColor:UIColor? = .white
+    }
+    
+/// ConfigureDocumentsEditPage: this is the second object which configure all attributes in the edit Page, use below code with default values:
+
+public struct ConfigureDocumentsEditPage {
+    public var editPageBackgroundColor: UIColor? = .black
+    public var outlinesCroppingColor:UIColor? = .red
+    
+    public var backButtonImage:UIImage? = nil
+    public var backButtonImageURL:String? = ""
+    public var backButtonTitle:String? = ""
+    public var backButtonIsHidden:Bool? = false
+    public var backButtonColor:UIColor? = .clear
+    public var backButtonFontColor:UIColor? = .white
+    public var backButtonFontNameAndSize:UIFont? = .systemFont(ofSize: 13)
+    public var backButtonImageTintColor:UIColor? = .white
+    
+    public var cropButtonImage:UIImage? = nil
+    public var cropButtonImageURL:String? = ""
+    public var cropButtonTitle:String? = ""
+    public var cropButtonIsHidden:Bool? = false
+    public var cropButtonColor:UIColor? = .clear
+    public var cropButtonFontColor:UIColor? = .white
+    public var cropButtonFontNameAndSize:UIFont? = .systemFont(ofSize: 13)
+    public var cropButtonImageTintColor:UIColor? = .white
+    }
+    
+/// ConfigureDocumentsPreviewPage: this is the third object which configure all attributes in the preview Page, use below code with default values:
+ 
+ public struct ConfigureDocumentsPreviewPage {
+    public var previewPageBackgroundColor: UIColor? = .black
+    
+    public var reviewLabelTitle:String? = ""
+    public var reviewLabelColor:UIColor = .white
+    public var reviewLabelNumberOfLine:Int? = 0
+    public var reviewLabelIsHidden:Bool? = false
+    
+    public var editScanButtonImage:UIImage? = nil
+    public var editScanButtonImageURL:String? = ""
+    public var editScanButtonTitle:String? = ""
+    public var editScanButtonIsHidden:Bool? = false
+    public var editScanButtonColor:UIColor? = .clear
+    public var editButtonFontColor:UIColor? = .white
+    public var editButtonFontNameAndSize:UIFont? = .systemFont(ofSize: 13)
+    public var editScanButtonImageTintColor:UIColor? = .white
+    
+    public var confirmButtonImage:UIImage? = nil
+    public var confirmButtonImageURL:String? = ""
+    public var confirmButtonTitle:String? = ""
+    public var confirmButtonIsHidden:Bool? = false
+    public var confirmScanButtonColor:UIColor? = .clear
+    public var confirmButtonFontColor:UIColor? = .white
+    public var confirmButtonFontNameAndSize:UIFont? = .systemFont(ofSize: 13)
+    public var confirmScanButtonImageTintColor:UIColor? = .white
+    
+    public var rotateButtonImage:UIImage? = nil
+    public var rotateButtonImageURL:String? = ""
+    public var rotateButtonTitle:String? = ""
+    public var rotateButtonIsHidden:Bool? = false
+    public var rotateScanButtonColor:UIColor? = .clear
+    public var rotateButtonFontColor:UIColor? = .white
+    public var rotateButtonFontNameAndSize:UIFont? = .systemFont(ofSize: 13)
+    public var rotateScanButtonImageTintColor:UIColor? = .white
+    }
+```
+
+###### END OF SEDRA CHECK ######
 
 ###### Sedra Liveness Check ######
 
