@@ -242,7 +242,7 @@ public enum SedraCheckError : Swift.Error {
     get
   }
 }
-public struct DataResponse<Success, Failure> where Failure : Swift.Error {
+public struct SedraCheckDataResponse<Success, Failure> where Failure : Swift.Error {
   public let request: Foundation.URLRequest?
   public let response: Foundation.HTTPURLResponse?
   public let data: Foundation.Data?
@@ -257,7 +257,7 @@ public struct DataResponse<Success, Failure> where Failure : Swift.Error {
   }
   public init(request: Foundation.URLRequest?, response: Foundation.HTTPURLResponse?, data: Foundation.Data?, metrics: Foundation.URLSessionTaskMetrics?, serializationDuration: Foundation.TimeInterval, result: Swift.Result<Success, Failure>)
 }
-public enum AFError : Swift.Error {
+public enum SedraCheckAFError : Swift.Error {
 }
 public enum SedraCheckJourneyType : Swift.Int {
   case unknown
@@ -301,6 +301,7 @@ public protocol EditImageViewDelegate : AnyObject {
   @objc deinit
 }
 public struct SedraCheckScreeningResponse : Swift.Codable {
+  public let requestID: Swift.String?, requestStatus: Swift.String?, requestStatusDescription: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
