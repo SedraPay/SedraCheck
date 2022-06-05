@@ -236,6 +236,7 @@ public enum SedraCheckError : Swift.Error {
   case cameraAccessDenied
   case serverError
   case imageLoadingError
+  case emptyScreeningNameError
   public static func == (a: SedraCheckError, b: SedraCheckError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -259,6 +260,35 @@ public struct SedraCheckDataResponse<Success, Failure> where Failure : Swift.Err
 }
 public enum SedraCheckAFError : Swift.Error {
 }
+public struct GetNationalities : Swift.Codable {
+  public let nationalities: [Nationality]?
+  public let isSuccess: Swift.Bool?
+  public let errors: [Swift.String]?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Nationality : Swift.Codable {
+  public let nationalityID: Swift.Int?
+  public let isoCode: Swift.String?, name: Swift.String?
+  public let nationalityIDTypes: [NationalityIDType]?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct NationalityIDType : Swift.Codable {
+  public let typeID: Swift.Int?
+  public let name: NationalityIdTypeName?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum NationalityIdTypeName : Swift.String, Swift.Codable {
+  case idCard
+  case passport
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public enum SedraCheckJourneyType : Swift.Int {
   case unknown
   case new
@@ -274,6 +304,8 @@ public protocol SedraCheckJourneyDelegate : ObjectiveC.NSObjectProtocol {
   func didFinishCreatingJourneyWithSuccess(journeyId: Swift.String)
   func didFinishCloseJourneyWithSuccess()
   func didFinishCloseJourneyWithError(error: SedraCheckError)
+  func didGetNationalitiesWithSuccess(response: GetNationalities)
+  func didGetNationalitiesWithError(error: SedraCheckError)
 }
 @_hasMissingDesignatedInitializers final public class SedraCheck {
   public static let livenessCheck: SedraCheckLivenessCheck
@@ -287,6 +319,7 @@ public protocol SedraCheckJourneyDelegate : ObjectiveC.NSObjectProtocol {
   final public var imagesIds: [ServerImageDocument]?
   final public func setSettings(serverKey: Swift.String, serverURLString: Swift.String?, _ needsLogging: Swift.Bool = false, _ journeyType: SedraCheckJourneyType = .unknown)
   final public func closeJourney(customerId: Swift.String?)
+  final public func getNationalities()
   @objc deinit
 }
 public protocol EditImageViewDelegate : AnyObject {
@@ -314,7 +347,7 @@ public protocol SedraCheckLivenessCheckDelegate {
 }
 @_hasMissingDesignatedInitializers final public class SedraCheckLivenessCheck {
   final public var delegate: SedraCheckLivenessCheckDelegate?
-  final public func checkLiveness(viewController: SedraCheckLivenessCheckDelegate, detectOptions: [DetectionOptions])
+  final public func checkLiveness(viewController: SedraCheckLivenessCheckDelegate, detectOptions: [DetectionOptions], isDetectionOptionsSorted: Swift.Bool? = false)
   final public func uploadLivenessCheckImage()
   @objc deinit
 }
@@ -412,6 +445,7 @@ public enum DetectionOptions {
 public protocol SedraComplyDelegate {
   func screeningFinishedWithSuccess(response: SedraCheckScreeningResponse)
   func screeningFinishedWithError(message: SedraCheckError)
+  func emptyNamesError(error: SedraCheckError)
 }
 @_hasMissingDesignatedInitializers final public class SedraComply {
   final public var delegate: SedraComplyDelegate?
@@ -487,7 +521,7 @@ public protocol SedraCheckDocumentsDelegate {
 }
 @_hasMissingDesignatedInitializers final public class SedraCheckDocuments {
   final public var delegate: SedraCheckDocumentsDelegate?
-  final public func captureDocuments(documentType: DocumentTypeEnum, configuration: ConfigureScanDocumentsViews?)
+  final public func captureDocuments(nationality: Nationality, documentType: NationalityIDType, configuration: ConfigureScanDocumentsViews?)
   final public func extractData()
   @objc deinit
 }
@@ -501,6 +535,9 @@ extension DocumentSideEnum : Swift.Hashable {}
 extension DocumentSideEnum : Swift.RawRepresentable {}
 extension SedraCheckError : Swift.Equatable {}
 extension SedraCheckError : Swift.Hashable {}
+extension NationalityIdTypeName : Swift.Equatable {}
+extension NationalityIdTypeName : Swift.Hashable {}
+extension NationalityIdTypeName : Swift.RawRepresentable {}
 extension SedraCheckJourneyType : Swift.Equatable {}
 extension SedraCheckJourneyType : Swift.Hashable {}
 extension SedraCheckJourneyType : Swift.RawRepresentable {}

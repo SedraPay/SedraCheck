@@ -146,11 +146,11 @@
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0/oLeL+P5AidWkMmbmfwT4NUKjk=
+		1Sg868oYeKzD/AxuD6OdeGltvi4=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dlpakVeIoAJln6ihLuiWhVy6gKk=
+		0qLzTk1XBgGQj9jC97LhTuCmes4=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -158,11 +158,11 @@
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		0/oLeL+P5AidWkMmbmfwT4NUKjk=
+		1Sg868oYeKzD/AxuD6OdeGltvi4=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		dlpakVeIoAJln6ihLuiWhVy6gKk=
+		0qLzTk1XBgGQj9jC97LhTuCmes4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -417,14 +417,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+lhq19fsoqvwuCPKUA58Xk/2LKSd6ckxT+ATN3Zb5pg=
+			Sb1BWIZNTWuGrOKawvmXWu+LELEZrg9U5hTXHfqxsbA=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VC2NAReHNg2EPlhndvemrM8vpd4NNfjkSjkxNrlsGws=
+			bE8QoGeBRkguq31oVhHjrb0wN1tsEdpf0xowoJv9IEs=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/x86_64.swiftdoc</key>
@@ -438,14 +438,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+lhq19fsoqvwuCPKUA58Xk/2LKSd6ckxT+ATN3Zb5pg=
+			Sb1BWIZNTWuGrOKawvmXWu+LELEZrg9U5hTXHfqxsbA=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VC2NAReHNg2EPlhndvemrM8vpd4NNfjkSjkxNrlsGws=
+			bE8QoGeBRkguq31oVhHjrb0wN1tsEdpf0xowoJv9IEs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
