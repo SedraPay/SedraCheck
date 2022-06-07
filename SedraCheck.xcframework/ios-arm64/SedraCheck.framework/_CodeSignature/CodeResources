@@ -126,11 +126,11 @@
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		s4cSQfz616tiHT61hBVv1l102P8=
+		MkONn0MYrGm0zksibUETwSvmLLc=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		8huv1ZinkUFErI9XNGwtkcl6LpQ=
+		lBbobBOwgaFsfUuybs2J9v4r2Rs=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -138,11 +138,11 @@
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		s4cSQfz616tiHT61hBVv1l102P8=
+		MkONn0MYrGm0zksibUETwSvmLLc=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		8huv1ZinkUFErI9XNGwtkcl6LpQ=
+		lBbobBOwgaFsfUuybs2J9v4r2Rs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -362,14 +362,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fI4lKvdoQPZxDyYEhfziycN+6MmmuXGKQUlmpv4Em4w=
+			C4I1p7+y9CFokxU/DO12yviIA+ZdSr5nesU6jfbS1Mg=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cn18RJEHqtz9QGOuuculwD2Xo+IAuy5D1QsRO75HXCQ=
+			4l2Cc2HzfW3MR8bXXV8ayn7WMkS3Z0CCVvp+roQjpww=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/arm64.swiftdoc</key>
@@ -383,14 +383,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fI4lKvdoQPZxDyYEhfziycN+6MmmuXGKQUlmpv4Em4w=
+			C4I1p7+y9CFokxU/DO12yviIA+ZdSr5nesU6jfbS1Mg=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cn18RJEHqtz9QGOuuculwD2Xo+IAuy5D1QsRO75HXCQ=
+			4l2Cc2HzfW3MR8bXXV8ayn7WMkS3Z0CCVvp+roQjpww=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

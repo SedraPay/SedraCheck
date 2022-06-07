@@ -201,6 +201,15 @@ extension SedraCheck.Reachability {
     get
   }
 }
+public protocol SedraCheckCloseJourneyDelegate {
+  func didFinishCloseJourneyWithSuccess()
+  func didFinishCloseJourneyWithError(error: SedraCheck.SedraCheckError)
+}
+@_hasMissingDesignatedInitializers final public class SedraCheckCloseJourney {
+  final public var delegate: SedraCheck.SedraCheckCloseJourneyDelegate?
+  final public func closeJourneyAPI(customerId: Swift.String?)
+  @objc deinit
+}
 public var hasSafeArea: Swift.Bool {
   get
 }
@@ -302,8 +311,6 @@ public enum SedraCheckJourneyType : Swift.Int {
 public protocol SedraCheckJourneyDelegate : ObjectiveC.NSObjectProtocol {
   func didFinishCreatingJourneyWithError(error: SedraCheck.SedraCheckError)
   func didFinishCreatingJourneyWithSuccess(journeyId: Swift.String)
-  func didFinishCloseJourneyWithSuccess()
-  func didFinishCloseJourneyWithError(error: SedraCheck.SedraCheckError)
   func didGetNationalitiesWithSuccess(response: SedraCheck.GetNationalities)
   func didGetNationalitiesWithError(error: SedraCheck.SedraCheckError)
 }
@@ -312,13 +319,13 @@ public protocol SedraCheckJourneyDelegate : ObjectiveC.NSObjectProtocol {
   public static let documentsCheck: SedraCheck.SedraCheckDocuments
   public static let shared: SedraCheck.SedraCheck
   public static let comply: SedraCheck.SedraComply
+  public static let closeJourney: SedraCheck.SedraCheckCloseJourney
   final public var delegate: SedraCheck.SedraCheckJourneyDelegate?
   final public var scannedDocuments: [SedraCheck.SedraCheckDocument]?
   final public var livenessImage: UIKit.UIImage?
   final public var livenessImageId: Swift.String?
   final public var imagesIds: [SedraCheck.ServerImageDocument]?
   final public func setSettings(serverKey: Swift.String, serverURLString: Swift.String?, _ needsLogging: Swift.Bool = false, _ journeyType: SedraCheck.SedraCheckJourneyType = .unknown)
-  final public func closeJourney(customerId: Swift.String?)
   final public func getNationalities()
   @objc deinit
 }
