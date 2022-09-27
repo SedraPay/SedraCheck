@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SedraCheck
-// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
 import CoreImage
@@ -16,7 +15,6 @@ import UIKit
 import VideoToolbox
 import Vision
 import _Concurrency
-import _StringProcessing
 public struct ImageMatchingResponse : Swift.Codable {
   public var isIdentical: Swift.Bool?
   public var confidence: Swift.Float?
@@ -439,7 +437,7 @@ extension UIKit.UIImage {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class BlurView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
   @_Concurrency.MainActor(unsafe) public func maskToRoi(roi: UIKit.UIView)
   @objc deinit
 }
@@ -478,10 +476,10 @@ public struct ValidationCheck : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct Quadrilateral {
-  public var topLeft: CoreFoundation.CGPoint
-  public var topRight: CoreFoundation.CGPoint
-  public var bottomRight: CoreFoundation.CGPoint
-  public var bottomLeft: CoreFoundation.CGPoint
+  public var topLeft: CoreGraphics.CGPoint
+  public var topRight: CoreGraphics.CGPoint
+  public var bottomRight: CoreGraphics.CGPoint
+  public var bottomLeft: CoreGraphics.CGPoint
   public var description: Swift.String {
     get
   }
@@ -519,7 +517,7 @@ public protocol ImageScannerControllerDelegate : ObjectiveC.NSObjectProtocol {
 @objc @_Concurrency.MainActor(unsafe) final public class ImageScannerController : UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) weak final public var imageScannerDelegate: SedraCheck.ImageScannerControllerDelegate?
   @_Concurrency.MainActor(unsafe) @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
-    @objc get
+    @_Concurrency.MainActor(unsafe) @objc get
   }
   @_Concurrency.MainActor(unsafe) required public init(image: UIKit.UIImage? = nil, delegate: SedraCheck.ImageScannerControllerDelegate? = nil)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)

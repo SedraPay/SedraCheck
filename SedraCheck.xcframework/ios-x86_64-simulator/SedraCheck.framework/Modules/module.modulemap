@@ -6,6 +6,6 @@ framework module SedraCheck {
 }
 
 module SedraCheck.Swift {
-  header "SedraCheck-Swift.h"
-  requires objc
+    header "SedraCheck-Swift.h"
+    requires objc
 }
