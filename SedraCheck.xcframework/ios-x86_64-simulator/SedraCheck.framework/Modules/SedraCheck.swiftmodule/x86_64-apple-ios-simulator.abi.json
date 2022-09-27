@@ -14874,6 +14874,3442 @@
         "printedName": "GetCSPDInfoResponse",
         "children": [
           {
+            "kind": "Var",
+            "name": "arabicName1",
+            "printedName": "arabicName1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV11arabicName1SSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11arabicName1SSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV11arabicName1SSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11arabicName1SSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "arabicName2",
+            "printedName": "arabicName2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV11arabicName2SSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11arabicName2SSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV11arabicName2SSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11arabicName2SSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "arabicName3",
+            "printedName": "arabicName3",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV11arabicName3SSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11arabicName3SSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV11arabicName3SSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11arabicName3SSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "arabicName4",
+            "printedName": "arabicName4",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV11arabicName4SSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11arabicName4SSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV11arabicName4SSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11arabicName4SSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "birthOrder",
+            "printedName": "birthOrder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV10birthOrderSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV10birthOrderSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV10birthOrderSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV10birthOrderSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identityCardExpiryDate",
+            "printedName": "identityCardExpiryDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV22identityCardExpiryDate10Foundation0I0VSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV22identityCardExpiryDate10Foundation0I0VSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV22identityCardExpiryDate10Foundation0I0VSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV22identityCardExpiryDate10Foundation0I0VSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "birthDate",
+            "printedName": "birthDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV9birthDate10Foundation0G0VSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV9birthDate10Foundation0G0VSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV9birthDate10Foundation0G0VSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV9birthDate10Foundation0G0VSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "birthOffice",
+            "printedName": "birthOffice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV11birthOfficeSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11birthOfficeSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV11birthOfficeSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11birthOfficeSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "birthCountry",
+            "printedName": "birthCountry",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV12birthCountrySSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV12birthCountrySSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV12birthCountrySSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV12birthCountrySSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "birthPSDate",
+            "printedName": "birthPSDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV11birthPSDate10Foundation4DateVSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11birthPSDate10Foundation4DateVSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV11birthPSDate10Foundation4DateVSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11birthPSDate10Foundation4DateVSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "birthKada",
+            "printedName": "birthKada",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV9birthKadaSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV9birthKadaSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV9birthKadaSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV9birthKadaSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "birthLiwa",
+            "printedName": "birthLiwa",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV9birthLiwaSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV9birthLiwaSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV9birthLiwaSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV9birthLiwaSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bookDate",
+            "printedName": "bookDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV8bookDate10Foundation0G0VSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV8bookDate10Foundation0G0VSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV8bookDate10Foundation0G0VSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV8bookDate10Foundation0G0VSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardDate",
+            "printedName": "cardDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV8cardDate10Foundation0G0VSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV8cardDate10Foundation0G0VSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV8cardDate10Foundation0G0VSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV8cardDate10Foundation0G0VSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardNumber",
+            "printedName": "cardNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV10cardNumberSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV10cardNumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV10cardNumberSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV10cardNumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardExpiryDate",
+            "printedName": "cardExpiryDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV14cardExpiryDate10Foundation0H0VSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV14cardExpiryDate10Foundation0H0VSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV14cardExpiryDate10Foundation0H0VSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV14cardExpiryDate10Foundation0H0VSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "changeDateTime",
+            "printedName": "changeDateTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV14changeDateTime10Foundation0G0VSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV14changeDateTime10Foundation0G0VSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV14changeDateTime10Foundation0G0VSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV14changeDateTime10Foundation0G0VSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "changeFlag",
+            "printedName": "changeFlag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV10changeFlagSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV10changeFlagSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV10changeFlagSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV10changeFlagSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chkd",
+            "printedName": "chkd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV4chkdSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV4chkdSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV4chkdSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV4chkdSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "civilRegistrationNumber",
+            "printedName": "civilRegistrationNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV23civilRegistrationNumberSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV23civilRegistrationNumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV23civilRegistrationNumberSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV23civilRegistrationNumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "civilRegistrationOffice",
+            "printedName": "civilRegistrationOffice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV23civilRegistrationOfficeSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV23civilRegistrationOfficeSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV23civilRegistrationOfficeSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV23civilRegistrationOfficeSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deathStatus",
+            "printedName": "deathStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV11deathStatusSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11deathStatusSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV11deathStatusSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11deathStatusSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "englishName1",
+            "printedName": "englishName1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV12englishName1SSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV12englishName1SSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV12englishName1SSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV12englishName1SSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "englishName2",
+            "printedName": "englishName2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV12englishName2SSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV12englishName2SSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV12englishName2SSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV12englishName2SSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "englishName3",
+            "printedName": "englishName3",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV12englishName3SSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV12englishName3SSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV12englishName3SSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV12englishName3SSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "englishName4",
+            "printedName": "englishName4",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV12englishName4SSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV12englishName4SSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV12englishName4SSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV12englishName4SSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "famno",
+            "printedName": "famno",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV5famnoSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV5famnoSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV5famnoSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV5famnoSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "famsts",
+            "printedName": "famsts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV6famstsSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV6famstsSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV6famstsSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV6famstsSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passportFileNumber",
+            "printedName": "passportFileNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV18passportFileNumberSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV18passportFileNumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV18passportFileNumberSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV18passportFileNumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fatherNationalNumber",
+            "printedName": "fatherNationalNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV20fatherNationalNumberSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV20fatherNationalNumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV20fatherNationalNumberSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV20fatherNationalNumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "motherNationality",
+            "printedName": "motherNationality",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV17motherNationalitySSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV17motherNationalitySSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV17motherNationalitySSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV17motherNationalitySSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "motherNationalNumber",
+            "printedName": "motherNationalNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV20motherNationalNumberSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV20motherNationalNumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV20motherNationalNumberSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV20motherNationalNumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "motherName",
+            "printedName": "motherName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV10motherNameSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV10motherNameSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV10motherNameSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV10motherNameSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nationality",
+            "printedName": "nationality",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV11nationalitySSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11nationalitySSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV11nationalitySSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11nationalitySSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nationalNumber",
+            "printedName": "nationalNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV14nationalNumberSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV14nationalNumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV14nationalNumberSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV14nationalNumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passportNumber",
+            "printedName": "passportNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV14passportNumberSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV14passportNumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV14passportNumberSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV14passportNumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passportIssueDate",
+            "printedName": "passportIssueDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV17passportIssueDate10Foundation0H0VSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV17passportIssueDate10Foundation0H0VSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV17passportIssueDate10Foundation0H0VSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV17passportIssueDate10Foundation0H0VSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passportExpiryDate",
+            "printedName": "passportExpiryDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV18passportExpiryDate10Foundation0H0VSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV18passportExpiryDate10Foundation0H0VSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV18passportExpiryDate10Foundation0H0VSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV18passportExpiryDate10Foundation0H0VSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passportName1",
+            "printedName": "passportName1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV13passportName1SSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV13passportName1SSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV13passportName1SSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV13passportName1SSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passportName2",
+            "printedName": "passportName2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV13passportName2SSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV13passportName2SSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV13passportName2SSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV13passportName2SSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passportName3",
+            "printedName": "passportName3",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV13passportName3SSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV13passportName3SSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV13passportName3SSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV13passportName3SSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passportName4",
+            "printedName": "passportName4",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV13passportName4SSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV13passportName4SSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV13passportName4SSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV13passportName4SSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "religionNumber",
+            "printedName": "religionNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV14religionNumberSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV14religionNumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV14religionNumberSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV14religionNumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "religionArabicName",
+            "printedName": "religionArabicName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV18religionArabicNameSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV18religionArabicNameSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV18religionArabicNameSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV18religionArabicNameSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "religionEnglishName",
+            "printedName": "religionEnglishName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV19religionEnglishNameSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV19religionEnglishNameSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV19religionEnglishNameSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV19religionEnglishNameSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "residenceCode",
+            "printedName": "residenceCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV13residenceCodeSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV13residenceCodeSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV13residenceCodeSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV13residenceCodeSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "residenceInfo",
+            "printedName": "residenceInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV13residenceInfoSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV13residenceInfoSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV13residenceInfoSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV13residenceInfoSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sex",
+            "printedName": "sex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV3sexSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV3sexSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV3sexSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV3sexSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isWanted",
+            "printedName": "isWanted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV8isWantedSbSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV8isWantedSbSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV8isWantedSbSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV8isWantedSbSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "birthGovern",
+            "printedName": "birthGovern",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SedraCheck.BirthGovern?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BirthGovern",
+                    "printedName": "SedraCheck.BirthGovern",
+                    "usr": "s:10SedraCheck11BirthGovernV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV11birthGovernAA05BirthG0VSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11birthGovernAA05BirthG0VSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SedraCheck.BirthGovern?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BirthGovern",
+                        "printedName": "SedraCheck.BirthGovern",
+                        "usr": "s:10SedraCheck11BirthGovernV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV11birthGovernAA05BirthG0VSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV11birthGovernAA05BirthG0VSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fileOffice",
+            "printedName": "fileOffice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SedraCheck.Office?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Office",
+                    "printedName": "SedraCheck.Office",
+                    "usr": "s:10SedraCheck6OfficeV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV10fileOfficeAA0G0VSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV10fileOfficeAA0G0VSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SedraCheck.Office?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Office",
+                        "printedName": "SedraCheck.Office",
+                        "usr": "s:10SedraCheck6OfficeV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV10fileOfficeAA0G0VSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV10fileOfficeAA0G0VSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fatherCivilOffice",
+            "printedName": "fatherCivilOffice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SedraCheck.Office?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Office",
+                    "printedName": "SedraCheck.Office",
+                    "usr": "s:10SedraCheck6OfficeV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV17fatherCivilOfficeAA0H0VSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV17fatherCivilOfficeAA0H0VSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SedraCheck.Office?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Office",
+                        "printedName": "SedraCheck.Office",
+                        "usr": "s:10SedraCheck6OfficeV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV17fatherCivilOfficeAA0H0VSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV17fatherCivilOfficeAA0H0VSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passportOffice",
+            "printedName": "passportOffice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SedraCheck.Office?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Office",
+                    "printedName": "SedraCheck.Office",
+                    "usr": "s:10SedraCheck6OfficeV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV14passportOfficeAA0G0VSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV14passportOfficeAA0G0VSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SedraCheck.Office?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Office",
+                        "printedName": "SedraCheck.Office",
+                        "usr": "s:10SedraCheck6OfficeV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV14passportOfficeAA0G0VSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV14passportOfficeAA0G0VSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "socialStatus",
+            "printedName": "socialStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SedraCheck.SocialStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SocialStatus",
+                    "printedName": "SedraCheck.SocialStatus",
+                    "usr": "s:10SedraCheck12SocialStatusV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV12socialStatusAA06SocialG0VSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV12socialStatusAA06SocialG0VSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SedraCheck.SocialStatus?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocialStatus",
+                        "printedName": "SedraCheck.SocialStatus",
+                        "usr": "s:10SedraCheck12SocialStatusV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV12socialStatusAA06SocialG0VSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV12socialStatusAA06SocialG0VSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV7messageSSSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV7messageSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV7messageSSSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV7messageSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSuccess",
+            "printedName": "isSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV9isSuccessSbSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV9isSuccessSbSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV9isSuccessSbSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV9isSuccessSbSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errors",
+            "printedName": "errors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck19GetCSPDInfoResponseV6errorsSaySSGSgvp",
+            "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV6errorsSaySSGSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck19GetCSPDInfoResponseV6errorsSaySSGSgvg",
+                "mangledName": "$s10SedraCheck19GetCSPDInfoResponseV6errorsSaySSGSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -14954,6 +18390,366 @@
         "name": "BirthGovern",
         "printedName": "BirthGovern",
         "children": [
+          {
+            "kind": "Var",
+            "name": "cityNumber",
+            "printedName": "cityNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck11BirthGovernV10cityNumberSSSgvp",
+            "mangledName": "$s10SedraCheck11BirthGovernV10cityNumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck11BirthGovernV10cityNumberSSSgvg",
+                "mangledName": "$s10SedraCheck11BirthGovernV10cityNumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "arabicCityName",
+            "printedName": "arabicCityName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck11BirthGovernV14arabicCityNameSSSgvp",
+            "mangledName": "$s10SedraCheck11BirthGovernV14arabicCityNameSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck11BirthGovernV14arabicCityNameSSSgvg",
+                "mangledName": "$s10SedraCheck11BirthGovernV14arabicCityNameSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "englishCityName",
+            "printedName": "englishCityName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck11BirthGovernV15englishCityNameSSSgvp",
+            "mangledName": "$s10SedraCheck11BirthGovernV15englishCityNameSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck11BirthGovernV15englishCityNameSSSgvg",
+                "mangledName": "$s10SedraCheck11BirthGovernV15englishCityNameSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "governNumber",
+            "printedName": "governNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck11BirthGovernV12governNumberSSSgvp",
+            "mangledName": "$s10SedraCheck11BirthGovernV12governNumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck11BirthGovernV12governNumberSSSgvg",
+                "mangledName": "$s10SedraCheck11BirthGovernV12governNumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "kadaNumber",
+            "printedName": "kadaNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck11BirthGovernV10kadaNumberSSSgvp",
+            "mangledName": "$s10SedraCheck11BirthGovernV10kadaNumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck11BirthGovernV10kadaNumberSSSgvg",
+                "mangledName": "$s10SedraCheck11BirthGovernV10kadaNumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "liwaNumber",
+            "printedName": "liwaNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck11BirthGovernV10liwaNumberSSSgvp",
+            "mangledName": "$s10SedraCheck11BirthGovernV10liwaNumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck11BirthGovernV10liwaNumberSSSgvg",
+                "mangledName": "$s10SedraCheck11BirthGovernV10liwaNumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -15037,6 +18833,366 @@
         "printedName": "Office",
         "children": [
           {
+            "kind": "Var",
+            "name": "compOffice",
+            "printedName": "compOffice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck6OfficeV04compC0SSSgvp",
+            "mangledName": "$s10SedraCheck6OfficeV04compC0SSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck6OfficeV04compC0SSSgvg",
+                "mangledName": "$s10SedraCheck6OfficeV04compC0SSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "englishName",
+            "printedName": "englishName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck6OfficeV11englishNameSSSgvp",
+            "mangledName": "$s10SedraCheck6OfficeV11englishNameSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck6OfficeV11englishNameSSSgvg",
+                "mangledName": "$s10SedraCheck6OfficeV11englishNameSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contractOfficeNumber",
+            "printedName": "contractOfficeNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck6OfficeV08contractC6NumberSSSgvp",
+            "mangledName": "$s10SedraCheck6OfficeV08contractC6NumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck6OfficeV08contractC6NumberSSSgvg",
+                "mangledName": "$s10SedraCheck6OfficeV08contractC6NumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck6OfficeV7addressSSSgvp",
+            "mangledName": "$s10SedraCheck6OfficeV7addressSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck6OfficeV7addressSSSgvg",
+                "mangledName": "$s10SedraCheck6OfficeV7addressSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "officeNumber",
+            "printedName": "officeNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck6OfficeV12officeNumberSSSgvp",
+            "mangledName": "$s10SedraCheck6OfficeV12officeNumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck6OfficeV12officeNumberSSSgvg",
+                "mangledName": "$s10SedraCheck6OfficeV12officeNumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "arabicName",
+            "printedName": "arabicName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck6OfficeV10arabicNameSSSgvp",
+            "mangledName": "$s10SedraCheck6OfficeV10arabicNameSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck6OfficeV10arabicNameSSSgvg",
+                "mangledName": "$s10SedraCheck6OfficeV10arabicNameSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -15118,6 +19274,246 @@
         "name": "SocialStatus",
         "printedName": "SocialStatus",
         "children": [
+          {
+            "kind": "Var",
+            "name": "englishName",
+            "printedName": "englishName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck12SocialStatusV11englishNameSSSgvp",
+            "mangledName": "$s10SedraCheck12SocialStatusV11englishNameSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck12SocialStatusV11englishNameSSSgvg",
+                "mangledName": "$s10SedraCheck12SocialStatusV11englishNameSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "arabicName",
+            "printedName": "arabicName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck12SocialStatusV10arabicNameSSSgvp",
+            "mangledName": "$s10SedraCheck12SocialStatusV10arabicNameSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck12SocialStatusV10arabicNameSSSgvg",
+                "mangledName": "$s10SedraCheck12SocialStatusV10arabicNameSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusNumber",
+            "printedName": "statusNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck12SocialStatusV12statusNumberSSSgvp",
+            "mangledName": "$s10SedraCheck12SocialStatusV12statusNumberSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck12SocialStatusV12statusNumberSSSgvg",
+                "mangledName": "$s10SedraCheck12SocialStatusV12statusNumberSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusName",
+            "printedName": "statusName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck12SocialStatusV10statusNameSSSgvp",
+            "mangledName": "$s10SedraCheck12SocialStatusV10statusNameSSSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck12SocialStatusV10statusNameSSSgvg",
+                "mangledName": "$s10SedraCheck12SocialStatusV10statusNameSSSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -17685,10 +22081,10 @@
             "mangledName": "$s10SedraCheck11NationalityV13nationalityIDSiSgvp",
             "moduleName": "SedraCheck",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -17717,6 +22113,56 @@
                 "moduleName": "SedraCheck",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck11NationalityV13nationalityIDSiSgvs",
+                "mangledName": "$s10SedraCheck11NationalityV13nationalityIDSiSgvs",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck11NationalityV13nationalityIDSiSgvM",
+                "mangledName": "$s10SedraCheck11NationalityV13nationalityIDSiSgvM",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -17745,10 +22191,10 @@
             "mangledName": "$s10SedraCheck11NationalityV7isoCodeSSSgvp",
             "moduleName": "SedraCheck",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -17777,6 +22223,56 @@
                 "moduleName": "SedraCheck",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck11NationalityV7isoCodeSSSgvs",
+                "mangledName": "$s10SedraCheck11NationalityV7isoCodeSSSgvs",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck11NationalityV7isoCodeSSSgvM",
+                "mangledName": "$s10SedraCheck11NationalityV7isoCodeSSSgvM",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -17805,10 +22301,10 @@
             "mangledName": "$s10SedraCheck11NationalityV4nameSSSgvp",
             "moduleName": "SedraCheck",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -17837,6 +22333,56 @@
                 "moduleName": "SedraCheck",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck11NationalityV4nameSSSgvs",
+                "mangledName": "$s10SedraCheck11NationalityV4nameSSSgvs",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck11NationalityV4nameSSSgvM",
+                "mangledName": "$s10SedraCheck11NationalityV4nameSSSgvM",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -17873,10 +22419,10 @@
             "mangledName": "$s10SedraCheck11NationalityV18nationalityIDTypesSayAA0C6IDTypeVGSgvp",
             "moduleName": "SedraCheck",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -17913,6 +22459,64 @@
                 "moduleName": "SedraCheck",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[SedraCheck.NationalityIDType]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[SedraCheck.NationalityIDType]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NationalityIDType",
+                            "printedName": "SedraCheck.NationalityIDType",
+                            "usr": "s:10SedraCheck17NationalityIDTypeV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck11NationalityV18nationalityIDTypesSayAA0C6IDTypeVGSgvs",
+                "mangledName": "$s10SedraCheck11NationalityV18nationalityIDTypesSayAA0C6IDTypeVGSgvs",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck11NationalityV18nationalityIDTypesSayAA0C6IDTypeVGSgvM",
+                "mangledName": "$s10SedraCheck11NationalityV18nationalityIDTypesSayAA0C6IDTypeVGSgvM",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -18023,10 +22627,10 @@
             "mangledName": "$s10SedraCheck17NationalityIDTypeV6typeIDSiSgvp",
             "moduleName": "SedraCheck",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -18055,6 +22659,56 @@
                 "moduleName": "SedraCheck",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck17NationalityIDTypeV6typeIDSiSgvs",
+                "mangledName": "$s10SedraCheck17NationalityIDTypeV6typeIDSiSgvs",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck17NationalityIDTypeV6typeIDSiSgvM",
+                "mangledName": "$s10SedraCheck17NationalityIDTypeV6typeIDSiSgvM",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -18083,10 +22737,10 @@
             "mangledName": "$s10SedraCheck17NationalityIDTypeV4nameAA0C10IdTypeNameOSgvp",
             "moduleName": "SedraCheck",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -18115,6 +22769,166 @@
                 "moduleName": "SedraCheck",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SedraCheck.NationalityIdTypeName?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NationalityIdTypeName",
+                        "printedName": "SedraCheck.NationalityIdTypeName",
+                        "usr": "s:10SedraCheck21NationalityIdTypeNameO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck17NationalityIDTypeV4nameAA0C10IdTypeNameOSgvs",
+                "mangledName": "$s10SedraCheck17NationalityIDTypeV4nameAA0C10IdTypeNameOSgvs",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck17NationalityIDTypeV4nameAA0C10IdTypeNameOSgvM",
+                "mangledName": "$s10SedraCheck17NationalityIDTypeV4nameAA0C10IdTypeNameOSgvM",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "numberOfImages",
+            "printedName": "numberOfImages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SedraCheck17NationalityIDTypeV14numberOfImagesSiSgvp",
+            "mangledName": "$s10SedraCheck17NationalityIDTypeV14numberOfImagesSiSgvp",
+            "moduleName": "SedraCheck",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck17NationalityIDTypeV14numberOfImagesSiSgvg",
+                "mangledName": "$s10SedraCheck17NationalityIDTypeV14numberOfImagesSiSgvg",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck17NationalityIDTypeV14numberOfImagesSiSgvs",
+                "mangledName": "$s10SedraCheck17NationalityIDTypeV14numberOfImagesSiSgvs",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SedraCheck17NationalityIDTypeV14numberOfImagesSiSgvM",
+                "mangledName": "$s10SedraCheck17NationalityIDTypeV14numberOfImagesSiSgvM",
+                "moduleName": "SedraCheck",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -28700,42 +33514,42 @@
     {
       "filePath": "\/Users\/areejsadaqa\/Desktop\/sedracheck\/SedraCheck\/Models\/GetNationalities.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 907,
       "length": 8,
       "value": "\"typeId\""
     },
     {
       "filePath": "\/Users\/areejsadaqa\/Desktop\/sedracheck\/SedraCheck\/Models\/GetNationalities.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 907,
       "length": 8,
       "value": "\"typeId\""
     },
     {
       "filePath": "\/Users\/areejsadaqa\/Desktop\/sedracheck\/SedraCheck\/Models\/GetNationalities.swift",
       "kind": "StringLiteral",
-      "offset": 1035,
+      "offset": 1081,
       "length": 9,
       "value": "\"ID Card\""
     },
     {
       "filePath": "\/Users\/areejsadaqa\/Desktop\/sedracheck\/SedraCheck\/Models\/GetNationalities.swift",
       "kind": "StringLiteral",
-      "offset": 1066,
+      "offset": 1112,
       "length": 10,
       "value": "\"Passport\""
     },
     {
       "filePath": "\/Users\/areejsadaqa\/Desktop\/sedracheck\/SedraCheck\/Models\/GetNationalities.swift",
       "kind": "StringLiteral",
-      "offset": 1035,
+      "offset": 1081,
       "length": 9,
       "value": "\"ID Card\""
     },
     {
       "filePath": "\/Users\/areejsadaqa\/Desktop\/sedracheck\/SedraCheck\/Models\/GetNationalities.swift",
       "kind": "StringLiteral",
-      "offset": 1066,
+      "offset": 1112,
       "length": 10,
       "value": "\"Passport\""
     },

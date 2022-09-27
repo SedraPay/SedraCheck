@@ -102,7 +102,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
-		JUvHyuB+S4LTjYJjsiXLLfbvhR0=
+		kWTEwpI0OOQeKaqKxyia7vCkN+k=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/blazeface.tfl</key>
 		<data>
@@ -142,11 +142,11 @@
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		mrQeT3xyaqQiYodUrtbr8dQrMH0=
+		tWztw7VpQVRYk/cAbF09cx9touw=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		uFXGDUHYxgb+gsl1Wc96UUhtkiQ=
+		5umsQJfPbHyzfcF3V4rjLV+Cydo=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -154,11 +154,11 @@
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		uFXGDUHYxgb+gsl1Wc96UUhtkiQ=
+		5umsQJfPbHyzfcF3V4rjLV+Cydo=
 		</data>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		D3+NOxFb89Q7rT1R8WcrlSwV1rc=
+		y/ViI91LX3VSzA5OEd2BYVcdYsc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -343,7 +343,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XT2jo5ccNxFM2+VOXgDx6PfRcS2rpBhxsFlTxD114Q8=
+			vj2MkqaQ5XqUS2o7fq8H9IM9M6CG4h+IFXkt1jWcWrQ=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/blazeface.tfl</key>
@@ -406,14 +406,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sxadBHo5v/Mg965Mrdvii34xpVgW51kHqPeUgJM1KA0=
+			g0I2Hdwk6zgVri89rEEDYVVB0ZdQ02xlnOrXELPhujA=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NX/D8bVti7pGXizDtHoHcq3azR9+1fypmqMPUm566q8=
+			dtet5LnM0qdYaDv4iaAfniX6Lsi/HgaMm2BC8nra7Mg=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -427,14 +427,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NX/D8bVti7pGXizDtHoHcq3azR9+1fypmqMPUm566q8=
+			dtet5LnM0qdYaDv4iaAfniX6Lsi/HgaMm2BC8nra7Mg=
 			</data>
 		</dict>
 		<key>Modules/SedraCheck.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XkDEtsdkNpYIZe27KVtzA2U0w7Zv9L+sIPvbODSVKV0=
+			xEFeb8e4BOJ70OnyM+W5YHv9Uspt33sDVT3m/UAdf9w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
