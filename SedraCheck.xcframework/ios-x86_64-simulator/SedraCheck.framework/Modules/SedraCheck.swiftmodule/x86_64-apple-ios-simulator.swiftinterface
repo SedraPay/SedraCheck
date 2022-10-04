@@ -204,19 +204,19 @@ extension Reachability {
 public struct GetCSPDInfoResponse : Swift.Codable {
   public let arabicName1: Swift.String?, arabicName2: Swift.String?, arabicName3: Swift.String?, arabicName4: Swift.String?
   public let birthOrder: Swift.String?
-  public let identityCardExpiryDate: Foundation.Date?, birthDate: Foundation.Date?
+  public let identityCardExpiryDate: Swift.String?, birthDate: Swift.String?
   public let birthOffice: Swift.String?, birthCountry: Swift.String?
-  public let birthPSDate: Foundation.Date?
+  public let birthPSDate: Swift.String?
   public let birthKada: Swift.String?, birthLiwa: Swift.String?
-  public let bookDate: Foundation.Date?, cardDate: Foundation.Date?
+  public let bookDate: Swift.String?, cardDate: Swift.String?
   public let cardNumber: Swift.String?
-  public let cardExpiryDate: Foundation.Date?, changeDateTime: Foundation.Date?
+  public let cardExpiryDate: Swift.String?, changeDateTime: Swift.String?
   public let changeFlag: Swift.String?, chkd: Swift.String?, civilRegistrationNumber: Swift.String?, civilRegistrationOffice: Swift.String?
   public let deathStatus: Swift.String?, englishName1: Swift.String?, englishName2: Swift.String?, englishName3: Swift.String?
   public let englishName4: Swift.String?, famno: Swift.String?, famsts: Swift.String?, passportFileNumber: Swift.String?
   public let fatherNationalNumber: Swift.String?, motherNationality: Swift.String?, motherNationalNumber: Swift.String?, motherName: Swift.String?
   public let nationality: Swift.String?, nationalNumber: Swift.String?, passportNumber: Swift.String?
-  public let passportIssueDate: Foundation.Date?, passportExpiryDate: Foundation.Date?
+  public let passportIssueDate: Swift.String?, passportExpiryDate: Swift.String?
   public let passportName1: Swift.String?, passportName2: Swift.String?, passportName3: Swift.String?, passportName4: Swift.String?
   public let religionNumber: Swift.String?, religionArabicName: Swift.String?, religionEnglishName: Swift.String?, residenceCode: Swift.String?
   public let residenceInfo: Swift.String?, sex: Swift.String?
