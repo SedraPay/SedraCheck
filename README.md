@@ -94,6 +94,7 @@ func closeJourny(){
     /// - Parameters:
     ///  - customerId: this parameter to know your user id so you can compare it from our portal if needed
     SedraCheck.shared.closeJourney(customerId: "<YOUR_CORE_SYSTEM_USERID>")
+
 }
 
 extension <YOUR_VIEW_CONTROLLER>: SedraCheckJourneyDelegate{
@@ -308,8 +309,10 @@ If you need to check user liveness and take a selfie, use below code:
     /// Below function is for checking the liveness of the user and take a photo for the user.
     /// - Parameters:
     ///   - viewController: current viewController
+    /// - detectOptions: array of side(detection) options enum [.blink, .smile, .lookRight, .lookLeft] 
 
-    SedraCheck.livenessCheck.checkLiveness(viewController: self)
+    SedraCheck.livenessCheck.checkLiveness(viewController: vc, detectOptions: [.blink])
+
 }
 
 extension <YOUR_VIEW_CONTROLLER>: SedraCheckLivenessCheckDelegate{
